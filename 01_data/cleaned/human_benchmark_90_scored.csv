@@ -1,0 +1,91 @@
+sentence_id,company,ticker,section,sentence,human_label,finbert_label,p_positive,p_negative,p_neutral,sentiment_score,correct
+S001,ICICI Bank,ICICIBANK.NS,Remarks,ICICI Bank delivered strong core operating performance with Net Interest Income expanding robustly and domestic loan growth reaching 15.6% year-on-year.,Positive,Positive,0.9574,0.0164,0.0261,0.941,True
+S002,ICICI Bank,ICICIBANK.NS,Remarks,Asset quality continues to be pristine with Net NPA ratio at 0.43% and Provision Coverage Ratio exceeding 80%.,Positive,Positive,0.8326,0.0132,0.1542,0.8194,True
+S003,ICICI Bank,ICICIBANK.NS,Remarks,"In Q2 FY25, ICICI Bank achieved healthy profit after tax growth of 14.5% year-on-year driven by sustained business banking momentum.",Positive,Positive,0.9552,0.0186,0.0262,0.9367,True
+S004,ICICI Bank,ICICIBANK.NS,Remarks,"Return on Assets stood at an industry-leading 2.32% and Return on Equity exceeded 17.8%, underscoring our core operating profitability.",Positive,Positive,0.953,0.0198,0.0273,0.9332,True
+S005,ICICI Bank,ICICIBANK.NS,Remarks,"Our digital banking platforms processed record transaction volumes, driving fee income growth of 16.2% year-on-year.",Positive,Positive,0.918,0.0098,0.0721,0.9082,True
+S006,ICICI Bank,ICICIBANK.NS,Remarks,"Capital adequacy remains exceptionally strong with Tier-1 CAR above 16%, positioning the bank for sustained market share gains.",Positive,Positive,0.9549,0.018,0.0271,0.9369,True
+S007,ICICI Bank,ICICIBANK.NS,Remarks,"Granular deposit inflows accelerated across affluent and salaried customer segments, strengthening our funding stability.",Positive,Positive,0.9594,0.0187,0.0218,0.9407,True
+S008,ICICI Bank,ICICIBANK.NS,Remarks,Our technology investments in AI-powered credit underwriting continue to improve cost-to-income efficiency.,Positive,Positive,0.9444,0.0106,0.045,0.9338,True
+S009,ICICI Bank,ICICIBANK.NS,Remarks,"Q3 FY26 marked another quarter of superior execution for ICICI Bank, with Net Profit crossing Rs 12,400 Crore.",Positive,Positive,0.9514,0.0249,0.0238,0.9265,True
+S010,ICICI Bank,ICICIBANK.NS,Remarks,"High-margin business banking and SME working capital lines grew 19.4% year-on-year, boosting overall profitability.",Positive,Positive,0.9575,0.0198,0.0226,0.9377,True
+S011,ICICI Bank,ICICIBANK.NS,Q&A,Systemic wholesale deposit rates stay volatile and CASA mobilization faces severe headwinds across the banking sector.,Negative,Negative,0.0105,0.9693,0.0202,-0.9588,True
+S012,ICICI Bank,ICICIBANK.NS,Q&A,"Near-term NIM trajectory is pressured by lagged deposit repricing, making margin expansion challenging in the immediate quarters.",Negative,Negative,0.013,0.9655,0.0215,-0.9525,True
+S013,ICICI Bank,ICICIBANK.NS,Q&A,"Industry-wide microfinance and personal loan stress remains challenging, causing unsecured credit growth to slow down.",Negative,Negative,0.0103,0.9699,0.0198,-0.9595,True
+S014,ICICI Bank,ICICIBANK.NS,Q&A,Retail savers shifting toward higher-yielding term deposits creates structural funding headwinds that compress CASA margins.,Negative,Negative,0.0102,0.9706,0.0192,-0.9604,True
+S015,ICICI Bank,ICICIBANK.NS,Q&A,Immediate repo rate transmission on floating-rate loans creates near-term downward pressure and headwinds for Net Interest Margin.,Negative,Negative,0.0079,0.9719,0.0202,-0.964,True
+S016,ICICI Bank,ICICIBANK.NS,Q&A,Historical credit seasoning implies provision expenses could edge up from cyclical troughs under challenging macro conditions.,Negative,Positive,0.9132,0.0712,0.0156,0.842,False
+S017,ICICI Bank,ICICIBANK.NS,Q&A,Export-oriented MSME working capital demand faces headwinds from global trade disruptions and tight liquidity.,Negative,Negative,0.0092,0.9712,0.0197,-0.962,True
+S018,ICICI Bank,ICICIBANK.NS,Q&A,"Wholesale funding spreads remain volatile and elevated, creating downward pressure on treasury trading income.",Negative,Negative,0.0085,0.9707,0.0208,-0.9622,True
+S019,ICICI Bank,ICICIBANK.NS,Q&A,Sustaining NIM above 4.30% remains challenging due to persistent deposit cost escalation across urban markets.,Negative,Negative,0.0135,0.9459,0.0406,-0.9324,True
+S020,ICICI Bank,ICICIBANK.NS,Q&A,Rising household leverage in lower-ticket retail cohorts has increased delinquency risk across unsecured personal loans.,Negative,Positive,0.7015,0.2596,0.0389,0.4418,False
+S021,ICICI Bank,ICICIBANK.NS,Remarks,The Board of Directors met in Mumbai on Saturday to review the audited standalone and consolidated financial statements.,Neutral,Neutral,0.0273,0.0544,0.9183,-0.0271,True
+S022,ICICI Bank,ICICIBANK.NS,Remarks,"Total branch network stood at 6,613 branches and 17,120 ATMs across India at the end of the quarter.",Neutral,Neutral,0.0319,0.032,0.9361,-0.0001,True
+S023,ICICI Bank,ICICIBANK.NS,Q&A,"Our domestic loan book comprises 53% retail advances, 21% business banking, and 26% corporate and institutional loans.",Neutral,Neutral,0.0298,0.0171,0.9531,0.0126,True
+S024,ICICI Bank,ICICIBANK.NS,Q&A,"Around 49% of the domestic loan portfolio is linked to the RBI repo rate, while 19% is linked to MCLR.",Neutral,Neutral,0.0284,0.0226,0.949,0.0058,True
+S025,ICICI Bank,ICICIBANK.NS,Remarks,"Contingency provisioning buffer was maintained unchanged at Rs 13,100 Crore at the close of the fiscal year.",Neutral,Neutral,0.1125,0.2959,0.5916,-0.1835,True
+S026,ICICI Bank,ICICIBANK.NS,Q&A,Future monetary policy adjustments remain subject to RBI MPC meetings scheduled over the next two quarters.,Neutral,Neutral,0.0243,0.0525,0.9232,-0.0282,True
+S027,ICICI Bank,ICICIBANK.NS,Remarks,The diluted equity share base stood at 704.8 Crore shares of face value Rs 2 each as of the reporting date.,Neutral,Neutral,0.0181,0.0894,0.8925,-0.0714,True
+S028,ICICI Bank,ICICIBANK.NS,Q&A,Average Liquidity Coverage Ratio for the quarter was reported at 121.5% under standard Basel III norms.,Neutral,Neutral,0.0418,0.0235,0.9348,0.0183,True
+S029,ICICI Bank,ICICIBANK.NS,Q&A,We will evaluate the updated RBI circular on project finance provisioning once final guidelines are notified.,Neutral,Neutral,0.0765,0.013,0.9105,0.0634,True
+S030,ICICI Bank,ICICIBANK.NS,Remarks,"Consolidated results include the financial statements of ICICI Prudential Life, ICICI Lombard, and ICICI AMC.",Neutral,Neutral,0.0233,0.0282,0.9485,-0.0048,True
+S031,Reliance Industries,RELIANCE.NS,Remarks,Reliance Industries delivered solid consolidated operating results led by Jio subscriber additions and data traffic growth of 32% year-on-year.,Positive,Positive,0.9576,0.0209,0.0214,0.9367,True
+S032,Reliance Industries,RELIANCE.NS,Remarks,"Oil and Gas upstream EBITDA expanded 28% year-on-year on higher KG-D6 gas production, reinforcing strong cash flow generation.",Positive,Positive,0.9573,0.019,0.0237,0.9384,True
+S033,Reliance Industries,RELIANCE.NS,Remarks,Jio Platforms achieved strong EBITDA expansion of 17.8% year-on-year as tariff hike transmission lifted ARPU to Rs 195.1.,Positive,Positive,0.9569,0.0197,0.0234,0.9371,True
+S034,Reliance Industries,RELIANCE.NS,Remarks,Reliance Retail improved its operating EBITDA margin through supply-chain automation and strong digital commerce traction.,Positive,Positive,0.9615,0.0171,0.0213,0.9444,True
+S035,Reliance Industries,RELIANCE.NS,Remarks,Consolidated EBITDA reached a record high on festive retail demand and rising Jio ARPU.,Positive,Positive,0.9573,0.0193,0.0234,0.9379,True
+S036,Reliance Industries,RELIANCE.NS,Remarks,"Reliance Retail recorded strong footfalls across grocery and fashion, delivering 14.5% EBITDA growth year-on-year.",Positive,Positive,0.9591,0.0179,0.023,0.9412,True
+S037,Reliance Industries,RELIANCE.NS,Remarks,Free cash flow surged as telecom network capital expenditure moderated significantly compared to the prior 5G rollout cycle.,Positive,Positive,0.9569,0.0249,0.0182,0.932,True
+S038,Reliance Industries,RELIANCE.NS,Remarks,Reliance Retail completed its store optimization and delivered accelerated same-store sales growth of 11.8% with expanding margins.,Positive,Positive,0.9567,0.0164,0.0268,0.9403,True
+S039,Reliance Industries,RELIANCE.NS,Remarks,"Q3 FY26 delivered record consolidated quarterly profit for Reliance Industries, propelled by festive consumer demand.",Positive,Positive,0.9464,0.0317,0.022,0.9147,True
+S040,Reliance Industries,RELIANCE.NS,Remarks,"Cash flows from operations reached Rs 1.74 Lakh Crore, driving a powerful free cash flow inflection across the conglomerate.",Positive,Positive,0.9421,0.0231,0.0348,0.919,True
+S041,Reliance Industries,RELIANCE.NS,Q&A,Global refining cracks and petrochemical spreads declined sharply due to excess Chinese capacity and weak export demand.,Negative,Negative,0.0099,0.9741,0.0159,-0.9642,True
+S042,Reliance Industries,RELIANCE.NS,Q&A,B2B wholesale restructuring and weak urban discretionary demand created headwinds that slowed retail revenue growth.,Negative,Negative,0.0079,0.9727,0.0193,-0.9648,True
+S043,Reliance Industries,RELIANCE.NS,Q&A,O2C ethane and naphtha cracking margins remain depressed and challenging given sluggish global industrial recovery.,Negative,Negative,0.0078,0.9716,0.0206,-0.9637,True
+S044,Reliance Industries,RELIANCE.NS,Q&A,Global polymer overcapacity presents persistent margin headwinds and depresses downstream petrochemical profitability.,Negative,Negative,0.0101,0.9704,0.0195,-0.9603,True
+S045,Reliance Industries,RELIANCE.NS,Q&A,The transition period before New Energy gigafactories reach commercial utilization creates near-term return headwinds.,Negative,Negative,0.012,0.9687,0.0193,-0.9568,True
+S046,Reliance Industries,RELIANCE.NS,Q&A,Global crude differentials and Singapore GRMs remain volatile and compressed amid geopolitical shipping disruptions.,Negative,Negative,0.0116,0.9678,0.0206,-0.9563,True
+S047,Reliance Industries,RELIANCE.NS,Q&A,Hyper-competitive discounting by quick-commerce peers presents margin headwinds in urban grocery delivery.,Negative,Negative,0.0103,0.9723,0.0174,-0.9621,True
+S048,Reliance Industries,RELIANCE.NS,Q&A,O2C polyester and polymer deltas face ongoing downward pressure from regional supply additions in Asia.,Negative,Negative,0.0104,0.9693,0.0203,-0.959,True
+S049,Reliance Industries,RELIANCE.NS,Q&A,Subscriber churn in lower-ARPU 2G cohorts rose temporarily following the telecom tariff adjustments.,Negative,Positive,0.9339,0.0501,0.016,0.8837,False
+S050,Reliance Industries,RELIANCE.NS,Q&A,Initial gigafactory ramp-up margins face downside risks from polysilicon price volatility and export tariff barriers.,Negative,Negative,0.1239,0.8152,0.0609,-0.6913,True
+S051,Reliance Industries,RELIANCE.NS,Remarks,"Post the 1:1 bonus issue in October 2024, the total diluted equity share count stands at 1,353.2 Crore shares.",Neutral,Neutral,0.0268,0.0381,0.9351,-0.0113,True
+S052,Reliance Industries,RELIANCE.NS,Remarks,"Total physical retail store count stood at 18,836 stores covering 79.1 million square feet of retail area.",Neutral,Neutral,0.0393,0.0335,0.9272,0.0058,True
+S053,Reliance Industries,RELIANCE.NS,Q&A,The Jamnagar refining complex processed 16.8 million metric tonnes of crude feedstock during the third quarter.,Neutral,Neutral,0.0637,0.0295,0.9068,0.0341,True
+S054,Reliance Industries,RELIANCE.NS,Q&A,"Consolidated financial statements eliminate inter-segment transfers between O2C, Jio Platforms, and Reliance Retail.",Neutral,Neutral,0.0345,0.1449,0.8206,-0.1104,True
+S055,Reliance Industries,RELIANCE.NS,Remarks,"Total gross debt stood at Rs 3,45,000 Crore while cash and marketable securities were Rs 2,15,000 Crore at year-end.",Neutral,Neutral,0.0234,0.0348,0.9418,-0.0114,True
+S056,Reliance Industries,RELIANCE.NS,Q&A,Future telecom tariff adjustments remain subject to industry regulatory filings and market conditions.,Neutral,Neutral,0.027,0.0912,0.8818,-0.0642,True
+S057,Reliance Industries,RELIANCE.NS,Remarks,"Phase-1 of the Dhirubhai Ambani Green Energy Giga Complex is located across 5,000 acres in Jamnagar, Gujarat.",Neutral,Neutral,0.0653,0.0105,0.9242,0.0548,True
+S058,Reliance Industries,RELIANCE.NS,Q&A,Average daily gas production from the KG-D6 basin was maintained at 28.5 MMSCMD during the quarter.,Neutral,Neutral,0.1942,0.1128,0.6929,0.0814,True
+S059,Reliance Industries,RELIANCE.NS,Q&A,Depreciation and amortization charges reflect the capitalization of 5G spectrum assets under Ind AS accounting rules.,Neutral,Neutral,0.0287,0.0251,0.9462,0.0035,True
+S060,Reliance Industries,RELIANCE.NS,Remarks,The Annual General Meeting of shareholders is scheduled to be held via video conferencing in August.,Neutral,Neutral,0.0253,0.0214,0.9532,0.0039,True
+S061,TCS,TCS.NS,Remarks,TCS delivered a resilient start with broad-based sequential growth across major markets and a strong TCV order book of USD 8.3 billion.,Positive,Positive,0.9534,0.0152,0.0313,0.9382,True
+S062,TCS,TCS.NS,Remarks,"Generative AI and cloud modernization pipeline doubled sequentially to USD 1.5 billion, reinforcing our market leadership.",Positive,Positive,0.9532,0.0145,0.0323,0.9387,True
+S063,TCS,TCS.NS,Remarks,TCS recorded solid revenue growth led by a decisive turnaround in North America BFSI and strong regional market execution.,Positive,Positive,0.9576,0.0165,0.0259,0.941,True
+S064,TCS,TCS.NS,Remarks,"Cash flow from operations reached 101% of Net Profit, supporting our superior Return on Equity of 50.8%.",Positive,Positive,0.9571,0.0184,0.0245,0.9387,True
+S065,TCS,TCS.NS,Remarks,"TCS achieved record TCV bookings of USD 10.2 billion in a seasonally soft quarter, with strong broad-based deal velocity.",Positive,Positive,0.9499,0.0291,0.021,0.9207,True
+S066,TCS,TCS.NS,Remarks,Operating margin expanded 40 basis points sequentially to 24.5% driven by pyramid optimization and delivery productivity.,Positive,Positive,0.957,0.0164,0.0267,0.9406,True
+S067,TCS,TCS.NS,Remarks,North America BFSI and UK markets posted accelerated sequential momentum as large banks resumed core platform modernization.,Positive,Positive,0.9564,0.0203,0.0233,0.9361,True
+S068,TCS,TCS.NS,Remarks,"Our AI.Cloud and cybersecurity practices grew over 22% year-on-year, driving strong gross margin resilience.",Positive,Positive,0.9562,0.0149,0.0289,0.9412,True
+S069,TCS,TCS.NS,Remarks,TCS delivered strong constant-currency revenue growth and expanded EBIT margin to 24.8% through disciplined execution.,Positive,Positive,0.9584,0.0156,0.026,0.9428,True
+S070,TCS,TCS.NS,Remarks,"Full-year TCV bookings exceeded USD 41 billion, providing strong multi-year revenue visibility across global clients.",Positive,Positive,0.9527,0.0138,0.0335,0.9389,True
+S071,TCS,TCS.NS,Q&A,Short-cycle ramp-downs in North America communications and retail accounts continue to create near-term revenue headwinds.,Negative,Negative,0.0083,0.9745,0.0172,-0.9663,True
+S072,TCS,TCS.NS,Q&A,"Clients demand aggressive productivity price cuts in legacy BPO renewals, creating pricing headwinds in commoditized services.",Negative,Negative,0.0124,0.9692,0.0184,-0.9568,True
+S073,TCS,TCS.NS,Q&A,Continental Europe manufacturing and automotive verticals remain weak and challenging amid macroeconomic contraction.,Negative,Negative,0.0085,0.9709,0.0205,-0.9624,True
+S074,TCS,TCS.NS,Q&A,Leaky bucket scope reductions and project cancellations on older contracts created downward pressure on reported revenue.,Negative,Negative,0.0077,0.975,0.0173,-0.9672,True
+S075,TCS,TCS.NS,Q&A,Healthcare and telecom verticals experienced revenue contraction as enterprise CIOs delayed discretionary IT budgets.,Negative,Negative,0.0076,0.9741,0.0183,-0.9665,True
+S076,TCS,TCS.NS,Q&A,Automated AI code generation creates structural headwinds and billing deflation for traditional time-and-materials staffing.,Negative,Negative,0.0096,0.9605,0.0299,-0.9508,True
+S077,TCS,TCS.NS,Q&A,Discretionary IT spending in UK retail and European industrials declined due to weak consumer sentiment.,Negative,Negative,0.0127,0.9699,0.0174,-0.9572,True
+S078,TCS,TCS.NS,Q&A,Tapering off of the BSNL hardware contract creates optical revenue headwinds that make sequential growth challenging.,Negative,Negative,0.0089,0.9702,0.0209,-0.9612,True
+S079,TCS,TCS.NS,Q&A,Competitive pricing pressure in vendor consolidation deals compressed initial transition margins during the quarter.,Negative,Negative,0.0103,0.9725,0.0172,-0.9622,True
+S080,TCS,TCS.NS,Q&A,Legacy application maintenance pricing remains under pressure as GenAI productivity benchmarks reduce billable headcount.,Negative,Negative,0.0264,0.9357,0.0378,-0.9093,True
+S081,TCS,TCS.NS,Remarks,"Total employee headcount stood at 6,07,979 professionals representing 152 nationalities as of March 31.",Neutral,Neutral,0.0254,0.1462,0.8284,-0.1207,True
+S082,TCS,TCS.NS,Remarks,"North America accounted for 49.5% of total revenue, while the United Kingdom contributed 16.8% and Continental Europe 14.6%.",Neutral,Neutral,0.0449,0.02,0.9351,0.0249,True
+S083,TCS,TCS.NS,Q&A,Debtor days stood at 65.8 days at the end of the fourth quarter compared to 66.5 days in the prior period.,Neutral,Negative,0.0816,0.9,0.0184,-0.8183,False
+S084,TCS,TCS.NS,Q&A,"Capitalized Right-of-Use lease liabilities under Ind AS 116 were reported at Rs 8,200 Crore on the balance sheet.",Neutral,Neutral,0.0189,0.065,0.9161,-0.0461,True
+S085,TCS,TCS.NS,Remarks,Diluted equity share count remained unchanged at 361.8 Crore shares following the prior year's share buyback.,Neutral,Neutral,0.0761,0.232,0.6919,-0.1559,True
+S086,TCS,TCS.NS,Q&A,Our annual wage increment cycle takes effect on April 1 each fiscal year across all global delivery centers.,Neutral,Neutral,0.0628,0.0162,0.921,0.0467,True
+S087,TCS,TCS.NS,Remarks,"Fixed-price contracts represented 54.2% of total quarterly revenues, with the remainder billed on time-and-materials basis.",Neutral,Neutral,0.0254,0.0272,0.9474,-0.0019,True
+S088,TCS,TCS.NS,Q&A,"Quarterly currency movements between the US Dollar, British Pound, and Indian Rupee are hedged via rolling forward contracts.",Neutral,Neutral,0.0468,0.0262,0.927,0.0205,True
+S089,TCS,TCS.NS,Q&A,Campus trainee onboarding schedules are aligned with quarterly project allocation schedules across Indian delivery centers.,Neutral,Neutral,0.0286,0.0383,0.9331,-0.0097,True
+S090,TCS,TCS.NS,Remarks,"The company's registered corporate office is located at TCS House, Raveline Street, Fort, Mumbai.",Neutral,Neutral,0.0221,0.0288,0.9491,-0.0068,True

@@ -1,0 +1,28 @@
+{
+  "project_title": "Beyond the Consensus: An AI-Augmented Fundamental Valuation of Core Indian Blue Chips with Risk-Calibrated Portfolio Construction",
+  "team_members": [
+    {"name": "Sankarshana Mulugundam", "roll_no": "246213080", "role": "Project Lead & Quantitative Portfolio Architect", "company_lead": "ICICI Bank"},
+    {"name": "Aditi Routray", "roll_no": "246213548", "role": "AI Pipeline, FinBERT Sentiment & Bias Lead", "company_lead": "Reliance Industries"},
+    {"name": "Sasi", "roll_no": "246213618", "role": "Fundamental Valuation, DCF/DDM & Accounting Lead", "company_lead": "TCS"}
+  ],
+  "price_cutoff_date": "2026-10-31",
+  "rf_portfolio_91d_tbill": 0.0665,
+  "rf_dcf_10y_gsec": 0.0685,
+  "equity_risk_premium": 0.0600,
+  "corporate_tax_rate": 0.2517,
+  "capm_blend_weight": 0.50,
+  "sip_params": {
+    "initial_monthly_sip": 25000,
+    "annual_step_up": 0.10,
+    "horizon_years": 20
+  },
+  "tickers": {
+    "ICICI_Bank": "ICICIBANK.NS",
+    "Reliance": "RELIANCE.NS",
+    "TCS": "TCS.NS",
+    "Benchmark": "^NSEI"
+  },
+  "context_peers": [
+    "HDFCBANK.NS", "INFY.NS", "ITC.NS", "LT.NS", "SUNPHARMA.NS", "MARUTI.NS", "NTPC.NS"
+  ]
+}

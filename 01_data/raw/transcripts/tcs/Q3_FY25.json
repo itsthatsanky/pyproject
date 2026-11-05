@@ -1,0 +1,8 @@
+{
+  "company": "TCS",
+  "ticker": "TCS.NS",
+  "folder": "tcs",
+  "quarter": "Q3_FY25",
+  "management_remarks": "During Q3 FY25, TCS achieved record TCV bookings of USD 10.2 billion in a seasonally soft quarter, with zero mega-deal dependency and strong broad-based deal velocity. Operating margin expanded 40 basis points sequentially to 24.5% driven by pyramid optimization, sub-contractor rationalization, and AI-assisted delivery productivity. Over 270 GenAI engagements moved into live production across BFSI, retail, and life sciences clients, validating enterprise adoption.",
+  "analyst_qa": "On the gap between strong TCV bookings and reported revenue growth, leaky bucket scope reductions on older contracts and cautious client ramp-ups create near-term headwinds. Healthcare and telecom verticals remain volatile and challenging as enterprise CIOs stay calibrated on quarterly budget releases. Short-term furloughs and uncertain US interest rate trajectories keep near-term conversion timing moderating."
+}

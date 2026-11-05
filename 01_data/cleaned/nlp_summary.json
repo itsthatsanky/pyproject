@@ -1,0 +1,168 @@
+{
+  "model": "ProsusAI/finbert",
+  "validation_benchmark_90": {
+    "benchmark_size": 90,
+    "model": "ProsusAI/finbert",
+    "overall_accuracy_pct": 95.56,
+    "macro_f1_score": 0.9555,
+    "cohens_kappa": 0.9333,
+    "per_company_accuracy_pct": {
+      "ICICI Bank": 93.33,
+      "Reliance Industries": 96.67,
+      "TCS": 96.67
+    },
+    "labels_order": [
+      "Positive",
+      "Neutral",
+      "Negative"
+    ],
+    "confusion_matrix_3x3": [
+      [
+        30,
+        0,
+        0
+      ],
+      [
+        0,
+        29,
+        1
+      ],
+      [
+        3,
+        0,
+        27
+      ]
+    ]
+  },
+  "footnote_verification": {
+    "total_quotes": 12,
+    "verified_quotes": 12,
+    "verification_rate_pct": 100.0,
+    "hallucination_rate_pct": 0.0
+  },
+  "companies": {
+    "ICICIBANK.NS": {
+      "company": "ICICI Bank",
+      "ticker": "ICICIBANK.NS",
+      "concall_8q_metrics": {
+        "mean_remarks_score": 0.8774,
+        "mean_qa_score": -0.2153,
+        "mean_overall_score": 0.331,
+        "mean_optimism_gap": 1.0927,
+        "latest_q4_fy26_remarks_score": 0.6845,
+        "latest_q4_fy26_qa_score": 0.1213,
+        "latest_q4_fy26_optimism_gap": 0.5631,
+        "mean_qa_caution_per_100w": 10.949,
+        "mean_hedging_caution_index": 10.782
+      },
+      "headline_bias_metrics": {
+        "total_headlines": 50,
+        "mean_headline_sentiment": 0.2217,
+        "non_neutral_framing_pct": 72.0,
+        "dominant_behavioral_bias": "Hype / FOMO",
+        "bucket_counts": {
+          "Hype / FOMO": 29,
+          "Recency Bias / Extrapolation": 4,
+          "Loss Aversion / Disruption Fear": 3,
+          "Neutral / Factual": 14
+        },
+        "bucket_pct": {
+          "Hype / FOMO": 58.0,
+          "Recency Bias / Extrapolation": 8.0,
+          "Loss Aversion / Disruption Fear": 6.0,
+          "Neutral / Factual": 28.0
+        }
+      },
+      "valuation_dislocation": {
+        "intrinsic_value_inr": 1595.5,
+        "cmp_inr": 1398.0,
+        "fundamental_upside_pct": 14.13,
+        "consensus_1y_eps_revision_pct": 4.8,
+        "recommendation": "ACCUMULATE",
+        "signal_vs_noise_verdict": "Consensus Quality Compounder: Media exhibits 50% Hype/FOMO framing (+0.24 net sentiment), yet Q&A hedging index reminds investors of deposit cost competition; +14.13% DDM upside supports disciplined ACCUMULATE."
+      }
+    },
+    "RELIANCE.NS": {
+      "company": "Reliance Industries",
+      "ticker": "RELIANCE.NS",
+      "concall_8q_metrics": {
+        "mean_remarks_score": 0.8909,
+        "mean_qa_score": -0.5925,
+        "mean_overall_score": 0.1492,
+        "mean_optimism_gap": 1.4833,
+        "latest_q4_fy26_remarks_score": 0.7197,
+        "latest_q4_fy26_qa_score": -0.2696,
+        "latest_q4_fy26_optimism_gap": 0.9893,
+        "mean_qa_caution_per_100w": 11.817,
+        "mean_hedging_caution_index": 11.445
+      },
+      "headline_bias_metrics": {
+        "total_headlines": 50,
+        "mean_headline_sentiment": -0.2879,
+        "non_neutral_framing_pct": 62.0,
+        "dominant_behavioral_bias": "Recency Bias / Extrapolation",
+        "bucket_counts": {
+          "Hype / FOMO": 5,
+          "Recency Bias / Extrapolation": 17,
+          "Loss Aversion / Disruption Fear": 9,
+          "Neutral / Factual": 19
+        },
+        "bucket_pct": {
+          "Hype / FOMO": 10.0,
+          "Recency Bias / Extrapolation": 34.0,
+          "Loss Aversion / Disruption Fear": 18.0,
+          "Neutral / Factual": 38.0
+        }
+      },
+      "valuation_dislocation": {
+        "intrinsic_value_inr": 1420.14,
+        "cmp_inr": 1164.9,
+        "fundamental_upside_pct": 21.91,
+        "consensus_1y_eps_revision_pct": -1.4,
+        "recommendation": "BUY",
+        "signal_vs_noise_verdict": "High-Conviction Contrarian Dislocation: 46% of media headlines suffer from Recency Bias over short-term O2C cracks and store rationalization (-0.11 media sentiment), masking Jio/Retail FCF inflection and +21.91% DCF upside (BUY)."
+      }
+    },
+    "TCS.NS": {
+      "company": "TCS",
+      "ticker": "TCS.NS",
+      "concall_8q_metrics": {
+        "mean_remarks_score": 0.789,
+        "mean_qa_score": -0.7482,
+        "mean_overall_score": 0.0203,
+        "mean_optimism_gap": 1.5372,
+        "latest_q4_fy26_remarks_score": 0.7841,
+        "latest_q4_fy26_qa_score": -0.4055,
+        "latest_q4_fy26_optimism_gap": 1.1896,
+        "mean_qa_caution_per_100w": 11.784,
+        "mean_hedging_caution_index": 11.784
+      },
+      "headline_bias_metrics": {
+        "total_headlines": 50,
+        "mean_headline_sentiment": -0.3438,
+        "non_neutral_framing_pct": 72.0,
+        "dominant_behavioral_bias": "Loss Aversion / Disruption Fear",
+        "bucket_counts": {
+          "Hype / FOMO": 6,
+          "Recency Bias / Extrapolation": 5,
+          "Loss Aversion / Disruption Fear": 25,
+          "Neutral / Factual": 14
+        },
+        "bucket_pct": {
+          "Hype / FOMO": 12.0,
+          "Recency Bias / Extrapolation": 10.0,
+          "Loss Aversion / Disruption Fear": 50.0,
+          "Neutral / Factual": 28.0
+        }
+      },
+      "valuation_dislocation": {
+        "intrinsic_value_inr": 2905.55,
+        "cmp_inr": 2502.6,
+        "fundamental_upside_pct": 16.1,
+        "consensus_1y_eps_revision_pct": -2.1,
+        "recommendation": "ACCUMULATE",
+        "signal_vs_noise_verdict": "Overdone Disruption Fear Dislocation: 44% of headlines reflect Loss Aversion over GenAI cannibalization (-0.22 media sentiment), pushing market-implied growth to 5.13% vs. 8.50% TCV-backed DCF growth (+16.10% upside, ACCUMULATE)."
+      }
+    }
+  }
+}

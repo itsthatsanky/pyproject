@@ -1,0 +1,107 @@
+{
+  "ICICI Bank": {
+    "ticker": "ICICIBANK.NS",
+    "source_document": "ICICI Bank Integrated Annual Report FY2025-26 (Schedules 12, 18 & Ind AS Notes)",
+    "raw_text": "Note 18.1 \u2014 Strategic Capital & Return Guidance: Management remains committed to sustaining a consolidated Return on Equity (ROE) of 17.0% to 17.5% over the medium term through risk-calibrated core operating profit growth, maintaining Net Interest Margin near 4.25%-4.30% and keeping credit provisions below 50 basis points of average advances. Note 18.4 \u2014 Technology & Branch Capex Commitments: Estimated amount of capital contracts remaining to be executed on account of tangible branch network expansion, cloud data centers, and AI digital banking infrastructure and not provided for stands at Rs 2,840 Crore as at March 31, 2026. Schedule 12 \u2014 Contingent Liabilities: Total contingent liabilities stood at Rs 18,45,200 Crore as at March 31, 2026, of which notional principal of back-to-back hedged foreign exchange forward contracts and interest rate derivatives accounted for Rs 17,34,480 Crore (94.0%), while disputed income tax and legal claims not acknowledged as debt were Rs 8,420 Crore (representing 2.85% of Shareholders' Net Worth). Note 18.14 \u2014 Related Party Transactions (Ind AS 24): During FY26, all transactions with consolidated subsidiaries and associates including ICICI Prudential Life Insurance, ICICI Lombard General Insurance, and ICICI Prudential AMC were conducted on an arm's-length basis in the ordinary course of bancassurance and investment banking business, aggregating Rs 1,620 Crore (1.75% of Net Interest Income), with zero promoter or director loans outstanding.",
+    "expected_extractions": [
+      {
+        "company": "ICICI Bank",
+        "category": "guidance",
+        "metric": "Sustainable ROE: 17.0%-17.5% | NIM: 4.25%-4.30% | Credit Cost: <50 bps",
+        "summary": "Management targets sustainable consolidated ROE of 17.0%-17.5% and NIM near 4.25%-4.30% with benign credit costs.",
+        "verbatim_quote": "Management remains committed to sustaining a consolidated Return on Equity (ROE) of 17.0% to 17.5% over the medium term through risk-calibrated core operating profit growth, maintaining Net Interest Margin near 4.25%-4.30% and keeping credit provisions below 50 basis points of average advances."
+      },
+      {
+        "company": "ICICI Bank",
+        "category": "capex",
+        "metric": "Uncapitalized Tech & Branch Capex Contracts: Rs 2,840 Crore",
+        "summary": "Capital commitments for branch expansion, cloud data centers, and AI digital banking infrastructure stand at Rs 2,840 Crore.",
+        "verbatim_quote": "Estimated amount of capital contracts remaining to be executed on account of tangible branch network expansion, cloud data centers, and AI digital banking infrastructure and not provided for stands at Rs 2,840 Crore as at March 31, 2026."
+      },
+      {
+        "company": "ICICI Bank",
+        "category": "contingent_liability",
+        "metric": "Disputed Tax/Legal Claims: Rs 8,420 Crore (2.85% of Net Worth)",
+        "summary": "94% of headline contingent liabilities are hedged forex/swap notionals; actual disputed tax/legal claims are only Rs 8,420 Cr (2.85% of Net Worth).",
+        "verbatim_quote": "Total contingent liabilities stood at Rs 18,45,200 Crore as at March 31, 2026, of which notional principal of back-to-back hedged foreign exchange forward contracts and interest rate derivatives accounted for Rs 17,34,480 Crore (94.0%), while disputed income tax and legal claims not acknowledged as debt were Rs 8,420 Crore (representing 2.85% of Shareholders' Net Worth)."
+      },
+      {
+        "company": "ICICI Bank",
+        "category": "rpt",
+        "metric": "Arm's-Length Subsidiary Bancassurance RPTs: Rs 1,620 Crore (1.75% of NII)",
+        "summary": "Related party transactions with insurance and AMC subsidiaries are strictly arm's-length (1.75% of NII) with zero director loan exposure.",
+        "verbatim_quote": "During FY26, all transactions with consolidated subsidiaries and associates including ICICI Prudential Life Insurance, ICICI Lombard General Insurance, and ICICI Prudential AMC were conducted on an arm's-length basis in the ordinary course of bancassurance and investment banking business, aggregating Rs 1,620 Crore (1.75% of Net Interest Income), with zero promoter or director loans outstanding."
+      }
+    ]
+  },
+  "Reliance Industries": {
+    "ticker": "RELIANCE.NS",
+    "source_document": "Reliance Industries Integrated Annual Report FY2025-26 (Consolidated Financial Notes 34, 35 & 38)",
+    "raw_text": "Note 38.2 \u2014 Medium-Term Growth & Leverage Guidance: Consolidated capital allocation prioritizes doubling EBITDA contribution from Consumer and Digital platforms (Jio and Reliance Retail) over the next four years while maintaining Consolidated Net Debt-to-EBITDA strictly below 1.0x as 5G spectrum and network capex intensity moderates. Note 34.1 \u2014 Capital Commitments & New Energy Capex: Estimated amount of contracts remaining to be executed on capital account and not provided for stands at Rs 42,600 Crore as at March 31, 2026, primarily directed toward the Dhirubhai Ambani Green Energy Giga Complex (solar PV, battery storage, and green hydrogen electrolyzers) in Jamnagar. Note 34.2 \u2014 Contingent Liabilities & Guarantees: Contingent liabilities not provided for aggregate Rs 64,850 Crore (representing 7.80% of Consolidated Net Worth), comprising bank guarantees for telecom spectrum obligations of Rs 38,200 Crore, customs duty EPC bonds of Rs 14,150 Crore, and disputed indirect tax claims of Rs 12,500 Crore. Note 35 \u2014 Related Party Disclosures (Ind AS 24): Inter-segment supply of refined feedstock, green power, digital connectivity, and logistics services among O2C, Jio Platforms, and Reliance Retail amounted to Rs 42,630 Crore (4.20% of consolidated revenue), priced on independent transfer-pricing benchmarks and fully eliminated upon consolidation.",
+    "expected_extractions": [
+      {
+        "company": "Reliance Industries",
+        "category": "guidance",
+        "metric": "Consumer/Digital EBITDA Doubling | Net Debt/EBITDA < 1.0x",
+        "summary": "Guidance locks Net Debt/EBITDA below 1.0x as 5G capex moderates and Jio/Retail EBITDA doubles over four years.",
+        "verbatim_quote": "Consolidated capital allocation prioritizes doubling EBITDA contribution from Consumer and Digital platforms (Jio and Reliance Retail) over the next four years while maintaining Consolidated Net Debt-to-EBITDA strictly below 1.0x as 5G spectrum and network capex intensity moderates."
+      },
+      {
+        "company": "Reliance Industries",
+        "category": "capex",
+        "metric": "Committed Unexecuted Capex: Rs 42,600 Crore (Jamnagar New Energy)",
+        "summary": "Contracted capital commitments of Rs 42,600 Cr are concentrated in Jamnagar New Energy gigafactories.",
+        "verbatim_quote": "Estimated amount of contracts remaining to be executed on capital account and not provided for stands at Rs 42,600 Crore as at March 31, 2026, primarily directed toward the Dhirubhai Ambani Green Energy Giga Complex (solar PV, battery storage, and green hydrogen electrolyzers) in Jamnagar."
+      },
+      {
+        "company": "Reliance Industries",
+        "category": "contingent_liability",
+        "metric": "Total Contingent Liabilities: Rs 64,850 Crore (7.80% of Net Worth)",
+        "summary": "Contingent liabilities are modest at 7.80% of Net Worth, mainly telecom spectrum bank guarantees and EPC bonds.",
+        "verbatim_quote": "Contingent liabilities not provided for aggregate Rs 64,850 Crore (representing 7.80% of Consolidated Net Worth), comprising bank guarantees for telecom spectrum obligations of Rs 38,200 Crore, customs duty EPC bonds of Rs 14,150 Crore, and disputed indirect tax claims of Rs 12,500 Crore."
+      },
+      {
+        "company": "Reliance Industries",
+        "category": "rpt",
+        "metric": "Inter-Segment Eliminated RPTs: Rs 42,630 Crore (4.20% of Revenue)",
+        "summary": "Inter-segment RPTs (4.20% of revenue) are transfer-pricing audited and eliminated on consolidation.",
+        "verbatim_quote": "Inter-segment supply of refined feedstock, green power, digital connectivity, and logistics services among O2C, Jio Platforms, and Reliance Retail amounted to Rs 42,630 Crore (4.20% of consolidated revenue), priced on independent transfer-pricing benchmarks and fully eliminated upon consolidation."
+      }
+    ]
+  },
+  "TCS": {
+    "ticker": "TCS.NS",
+    "source_document": "Tata Consultancy Services Integrated Annual Report FY2025-26 (Ind AS Notes 16, 29, 31 & MD&A)",
+    "raw_text": "Note 29.1 \u2014 Operating Margin & Capital Return Policy Guidance: Management maintains an aspirational operating EBIT margin band of 26.0% to 28.0% with a near-term operational floor of 24.5% to 25.0%, while committing to return 80% to 100% of annual Free Cash Flow to shareholders via regular dividends, special dividends, and share buybacks. Note 16.3 \u2014 Capital Commitments & Ind AS 116 Lease Obligations: Contractual capital commitments for AI cloud delivery centers and campus infrastructure stood at Rs 1,920 Crore as at March 31, 2026, alongside capitalized Right-of-Use (ROU) lease liabilities of Rs 8,200 Crore under Ind AS 116. Note 31.1 \u2014 Contingent Liabilities & Tax Disputes: Claims against the Company not acknowledged as debts and disputed income tax and state indirect tax demands aggregated Rs 14,620 Crore (13.9% of Shareholders' Net Worth), against which Rs 6,150 Crore has already been deposited under protest with appellate tax authorities. Note 31.4 \u2014 Related Party Transactions (Ind AS 24): Revenue earned from IT consulting, ERP cloud transformation, and engineering services provided to Tata Sons and fellow Tata Group entities (including Tata Motors, Jaguar Land Rover, and Air India) totaled Rs 8,772 Crore (3.40% of consolidated revenue), billed at standard commercial rates.",
+    "expected_extractions": [
+      {
+        "company": "TCS",
+        "category": "guidance",
+        "metric": "EBIT Margin Floor: 24.5%-25.0% (Band: 26%-28%) | FCF Payout: 80%-100%",
+        "summary": "Management locks 24.5%-25.0% near-term EBIT margin floor and 80%-100% FCF payout to shareholders.",
+        "verbatim_quote": "Management maintains an aspirational operating EBIT margin band of 26.0% to 28.0% with a near-term operational floor of 24.5% to 25.0%, while committing to return 80% to 100% of annual Free Cash Flow to shareholders via regular dividends, special dividends, and share buybacks."
+      },
+      {
+        "company": "TCS",
+        "category": "capex",
+        "metric": "AI Delivery Center Capex: Rs 1,920 Cr | Ind AS 116 Leases: Rs 8,200 Cr",
+        "summary": "Capital commitments are asset-light at Rs 1,920 Cr, with Rs 8,200 Cr in Ind AS 116 ROU lease liabilities.",
+        "verbatim_quote": "Contractual capital commitments for AI cloud delivery centers and campus infrastructure stood at Rs 1,920 Crore as at March 31, 2026, alongside capitalized Right-of-Use (ROU) lease liabilities of Rs 8,200 Crore under Ind AS 116."
+      },
+      {
+        "company": "TCS",
+        "category": "contingent_liability",
+        "metric": "Disputed Tax Demands: Rs 14,620 Cr (Rs 6,150 Cr Deposited Under Protest)",
+        "summary": "Disputed tax claims total Rs 14,620 Cr (13.9% of Net Worth), with Rs 6,150 Cr already pre-deposited under protest.",
+        "verbatim_quote": "Claims against the Company not acknowledged as debts and disputed income tax and state indirect tax demands aggregated Rs 14,620 Crore (13.9% of Shareholders' Net Worth), against which Rs 6,150 Crore has already been deposited under protest with appellate tax authorities."
+      },
+      {
+        "company": "TCS",
+        "category": "rpt",
+        "metric": "Tata Group Commercial IT Contracts: Rs 8,772 Crore (3.40% of Revenue)",
+        "summary": "IT services to Tata Group peers (JLR, Air India, Tata Motors) represent 3.40% of revenue at standard commercial rates.",
+        "verbatim_quote": "Revenue earned from IT consulting, ERP cloud transformation, and engineering services provided to Tata Sons and fellow Tata Group entities (including Tata Motors, Jaguar Land Rover, and Air India) totaled Rs 8,772 Crore (3.40% of consolidated revenue), billed at standard commercial rates."
+      }
+    ]
+  }
+}

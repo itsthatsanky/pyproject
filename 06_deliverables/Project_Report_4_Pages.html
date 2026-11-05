@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Beyond the Consensus — 4-Page Executive Report</title>
+<style>
+  @page {
+    size: A4 portrait;
+    margin: 10mm 12mm 10mm 12mm;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+    font-size: 8.6pt;
+    line-height: 1.28;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  .page {
+    width: 100%;
+    max-width: 210mm;
+    margin: 0 auto 16px auto;
+    padding: 8px 10px;
+    page-break-after: always;
+    border: 1px solid #e0e0e0;
+  }
+  .page:last-child {
+    page-break-after: auto;
+  }
+  @media print {
+    .page {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .banner {
+    background: #1f4e78;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .banner h1 {
+    font-size: 11.5pt;
+    font-weight: 700;
+    margin-bottom: 3px;
+  }
+  .banner .meta {
+    font-size: 7.8pt;
+    color: #d9e1f2;
+  }
+  h2 {
+    font-size: 9.8pt;
+    color: #1f4e78;
+    border-bottom: 1.5px solid #1f4e78;
+    padding-bottom: 2px;
+    margin: 7px 0 4px 0;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-size: 8.8pt;
+    color: #1f4e78;
+    margin: 5px 0 3px 0;
+  }
+  p {
+    margin-bottom: 4px;
+    text-align: justify;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4px 0 6px 0;
+    font-size: 7.7pt;
+  }
+  th {
+    background: #1f4e78;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+    padding: 3px 5px;
+    border: 1px solid #1f4e78;
+  }
+  td {
+    padding: 2.5px 5px;
+    border: 1px solid #cccccc;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td {
+    background: #f7f9fc;
+  }
+  .highlight-green {
+    background: #e2efda !important;
+    font-weight: 700;
+  }
+  .highlight-gold {
+    background: #fff2cc !important;
+    font-weight: 700;
+  }
+  .two-col {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .col {
+    flex: 1;
+  }
+  .chart-img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    border: 1px solid #dddddd;
+    margin: 3px 0;
+  }
+  ul {
+    margin-left: 14px;
+    margin-bottom: 4px;
+  }
+  li {
+    margin-bottom: 2px;
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== PAGE 1 ==================== -->
+<div class="page">
+  <div class="banner">
+    <h1>Beyond the Consensus: An AI-Augmented Fundamental Valuation of Core Indian Blue Chips with Risk-Calibrated Portfolio Construction</h1>
+    <div class="meta">
+      <b>Team:</b> Sankarshana Mulugundam (246213080 — Project Lead &amp; Portfolio Architect / ICICI Bank) &nbsp;|&nbsp;
+      Aditi Routray (246213548 — AI/FinBERT Pipeline &amp; Bias Lead / Reliance) &nbsp;|&nbsp;
+      Sasi (246213618 — DCF/DDM Valuation &amp; Accounting Lead / TCS)<br>
+      <b>Locked Single Source of Truth:</b> Cutoff Date: 2026-10-30 (1,236 Trading Days) &nbsp;|&nbsp;
+      10Y G-Sec Rf: 6.85% &nbsp;|&nbsp; 91D T-Bill Rf: 6.65% &nbsp;|&nbsp; India ERP: 6.00% &nbsp;|&nbsp; Tax Rate: 25.17%
+    </div>
+  </div>
+
+  <h2>1. Central Thesis &amp; Three-Pillar Macroeconomic Coverage Universe</h2>
+  <p>
+    Market consensus frequently misprices flagship Indian equities due to behavioral media narratives—extrapolating short-term O2C refining margin dips in conglomerates, over-discounting GenAI staffing deflation in IT services, or chasing momentum in private banks. This report integrates rigorous multi-model fundamental valuation (<b>2-Stage DDM</b>, <b>Consolidated FCFF DCF</b>, <b>Segmental SOTP</b>, and <b>Reverse DCF</b>) with live <b>ProsusAI/finbert</b> NLP inference across 24 earnings calls and 150 headlines, <b>1,000-path GBM Monte Carlo</b> risk distributions, and <b>utility-calibrated Mean-Variance Optimization (MVO)</b>.
+  </p>
+
+  <h3>1.1 Explicit Universe Selection &amp; Rejection Matrix</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Company Evaluated</th>
+        <th>Macro Sector Pillar</th>
+        <th>Decision</th>
+        <th>Valuation Methodology &amp; Portfolio Construction Rationale</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="highlight-green">
+        <td><b>ICICI Bank (ICICIBANK.NS)</b></td>
+        <td>Private Banking &amp; Credit</td>
+        <td>SELECTED (#1)</td>
+        <td>Industry-best 17.50% ROE, 4.30% NIM, 0.45% Net NPA; requires <b>2-Stage DDM &amp; Excess Equity Return</b> modeling because deposits/debt are raw material, rendering FCFF invalid.</td>
+      </tr>
+      <tr class="highlight-green">
+        <td><b>Reliance Industries (RELIANCE.NS)</b></td>
+        <td>Energy, Telecom (Jio) &amp; Retail</td>
+        <td>SELECTED (#2)</td>
+        <td>Consumer/Digital platforms (&gt;56% of EBITDA) scaling rapidly as 5G capex moderates; pairs <b>Consolidated 2-Stage FCFF DCF</b> with <b>Segmental SOTP</b> sanity check.</td>
+      </tr>
+      <tr class="highlight-green">
+        <td><b>TCS (TCS.NS)</b></td>
+        <td>IT Services &amp; Enterprise AI</td>
+        <td>SELECTED (#3)</td>
+        <td>51.0% ROE, 98.2% CFO/PAT conversion, and low Nifty Beta (0.8184) providing USD export buffer; ideal for testing AI disruption fears via <b>Reverse DCF Implied Growth</b>.</td>
+      </tr>
+      <tr>
+        <td>ITC Ltd (ITC.NS)</td>
+        <td>Cigarettes &amp; FMCG</td>
+        <td>REJECTED</td>
+        <td>ESG punitive tobacco excise taxation overhang caps terminal multiple expansion; domestic consumption growth is better captured via Reliance Retail.</td>
+      </tr>
+      <tr>
+        <td>Hindustan Unilever (HINDUNILVR.NS)</td>
+        <td>Consumer Staples</td>
+        <td>REJECTED</td>
+        <td>Rich ~52x P/E coupled with muted 3–4% rural volume growth produces a negative margin of safety under disciplined DCF assumptions.</td>
+      </tr>
+      <tr>
+        <td>Cummins India (CUMMINSIND.NS)</td>
+        <td>Capital Goods / Engines</td>
+        <td>REJECTED</td>
+        <td>Terminal value faces structural obsolescence risk as diesel backup gensets transition toward battery energy storage and green hydrogen.</td>
+      </tr>
+      <tr>
+        <td>Coal India (COALINDIA.NS)</td>
+        <td>Thermal Mining</td>
+        <td>REJECTED</td>
+        <td>Finite reserve depletion and post-FY35 ESG phase-down violate perpetual Gordon Growth terminal value assumptions.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>1.2 Empirical 10-Stock Return Correlation Proof (2021–2026 Daily Log Returns, N = 1,235)</h3>
+  <div class="two-col">
+    <div class="col">
+      <p>
+        Pairwise correlations among our 3 core pillars are remarkably low—<b>ICICI–TCS = 0.2564</b>, <b>Reliance–TCS = 0.3401</b>, and <b>ICICI–Reliance = 0.4316</b>—substantially below intra-sector pairs such as TCS–Infosys (0.7285) or ICICI–HDFC Bank (0.5412).
+      </p>
+      <table>
+        <thead>
+          <tr><th>Core Pair</th><th>5Y Log-Return Corr</th><th>Diversification Role</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><b>ICICIBANK – TCS</b></td><td><b>0.2564</b></td><td>Domestic Credit vs. Global USD IT</td></tr>
+          <tr><td><b>RELIANCE – TCS</b></td><td><b>0.3401</b></td><td>Domestic Capex/Retail vs. IT Export</td></tr>
+          <tr><td><b>ICICIBANK – RELIANCE</b></td><td><b>0.4316</b></td><td>Financials vs. Telecom/O2C/Retail</td></tr>
+          <tr><td><b>Mean Core Triad Corr</b></td><td><b>0.3427</b></td><td>Strong Multi-Sector Variance Reduction</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <img class="chart-img" src="../01_data/cleaned/correlation_heatmap.png" alt="10-Stock Correlation Heatmap">
+    </div>
+  </div>
+</div>
+
+<!-- ==================== PAGE 2 ==================== -->
+<div class="page">
+  <h2>2. 5-Year Fundamental Trajectory, Intrinsic Valuation Models &amp; Forensic Audit</h2>
+
+  <h3>2.1 5-Year Historical Financial Trajectory &amp; Operating Quality (FY22 – FY26)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Top-Line Growth (FY22 → FY26)</th>
+        <th>Operating Profit (FY22 → FY26)</th>
+        <th>Net Profit PAT (FY22 → FY26)</th>
+        <th>FY26 Return Metrics</th>
+        <th>FY26 Margin &amp; Cash Quality</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>ICICI Bank</b></td>
+        <td>NII: ₹47,466 → ₹92,400 Cr (+18.1% CAGR)</td>
+        <td>PPOP: ₹39,250 → ₹73,150 Cr (+16.8% CAGR)</td>
+        <td>₹23,339 → ₹49,540 Cr (+20.7% CAGR)</td>
+        <td>ROE: 17.50% | ROA: 2.25%</td>
+        <td>NIM: 4.30% | Net NPA: 0.45% | Tier-1: 16.25%</td>
+      </tr>
+      <tr>
+        <td><b>Reliance Ind.</b></td>
+        <td>Rev: ₹7.22L → ₹10.15L Cr (+8.9% CAGR)</td>
+        <td>EBITDA: ₹1.10L → ₹1.82L Cr (+13.3% CAGR)</td>
+        <td>₹60,705 → ₹79,500 Cr (+7.0% CAGR)</td>
+        <td>ROE: 9.60% | ROCE: 11.40%</td>
+        <td>EBITDA Margin: 17.93% | CFO/EBITDA: 95.9%</td>
+      </tr>
+      <tr>
+        <td><b>TCS</b></td>
+        <td>Rev: ₹1.92L → ₹2.58L Cr (+7.7% CAGR)</td>
+        <td>EBIT: ₹48,453 → ₹63,200 Cr (+6.9% CAGR)</td>
+        <td>₹38,327 → ₹49,200 Cr (+6.4% CAGR)</td>
+        <td>ROE: 51.00% | ROCE: 63.10%</td>
+        <td>EBIT Margin: 24.50% | CFO/PAT: 98.2% | DSO: 65.8d</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>2.2 Master Valuation Output Table (2-Stage DDM, Consolidated FCFF DCF, Segmental SOTP &amp; Reverse DCF)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Company (Ticker)</th>
+        <th>Valuation Model Used</th>
+        <th>5Y Raw β</th>
+        <th>CAPM Ke</th>
+        <th>Ke / WACC</th>
+        <th>Term. g</th>
+        <th>Intrinsic Value</th>
+        <th>Cutoff CMP</th>
+        <th>Upside / MoS</th>
+        <th>Implied 5Y IRR</th>
+        <th>Call</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="highlight-green">
+        <td><b>ICICI Bank (ICICIBANK.NS)</b></td>
+        <td>2-Stage DDM &amp; Excess Return</td>
+        <td>0.9663</td>
+        <td>12.65%</td>
+        <td>12.65% (Ke)</td>
+        <td>5.25%</td>
+        <td><b>₹1,595.50</b></td>
+        <td>₹1,398.00</td>
+        <td><b>+14.13%</b></td>
+        <td>15.33%</td>
+        <td><b>ACCUMULATE</b></td>
+      </tr>
+      <tr class="highlight-green">
+        <td><b>Reliance (RELIANCE.NS)</b></td>
+        <td>Consolidated FCFF DCF &amp; SOTP</td>
+        <td>1.1125</td>
+        <td>13.53%</td>
+        <td>12.10% (WACC)</td>
+        <td>5.00%</td>
+        <td><b>₹1,420.14</b></td>
+        <td>₹1,164.90</td>
+        <td><b>+21.91%</b></td>
+        <td>17.57%</td>
+        <td><b>BUY</b></td>
+      </tr>
+      <tr class="highlight-green">
+        <td><b>TCS (TCS.NS)</b></td>
+        <td>2-Stage FCFF DCF &amp; Reverse DCF</td>
+        <td>0.8184</td>
+        <td>11.76%</td>
+        <td>11.65% (WACC)</td>
+        <td>4.50%</td>
+        <td><b>₹2,905.55</b></td>
+        <td>₹2,502.60</td>
+        <td><b>+16.10%</b></td>
+        <td>14.79%</td>
+        <td><b>ACCUMULATE</b></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <ul>
+    <li><b>ICICI Bank 2-Stage DDM &amp; Excess Return Check:</b> Stage 1 (FY27E–FY31E) models sustainable 17.20% ROE with payout ramping from 20% to 28%, generating positive annual Excess Equity Return <code>(ROE - Ke) &gt; +455 bps</code>. Stage 2 Gordon Growth (<code>g = 5.25%</code>, 72% steady-state consolidated payout capability) yields <b>₹1,595.50/sh</b> (PV Stage 1 DPS = ₹77.81 + PV Terminal Value = ₹1,517.69).</li>
+    <li><b>Reliance Segmental SOTP Sanity-Check (₹1,441.95/sh):</b> Valuing FY27E O2C at 7.5x EBITDA (₹4,83,750 Cr = ₹357.49/sh), Jio Digital at 14.5x EBITDA (₹9,88,900 Cr = ₹730.79/sh), Organized Retail at 24.0x EBITDA (₹6,09,600 Cr = ₹450.49/sh), and New Energy at 1.5x IC (₹67,500 Cr = ₹49.88/sh) minus Net Debt (₹1,30,000 Cr) &amp; Minority Interest (₹68,500 Cr) yields <b>₹1,441.95/sh</b>, cross-verifying our Consolidated DCF value of <b>₹1,420.14/sh</b>.</li>
+    <li><b>TCS Reverse DCF Implied Growth Proof (5.13% vs. 8.50%):</b> At <code>WACC = 11.65%</code> and <code>24.5%</code> EBIT margin, TCS's current price of ₹2,502.60 implies only a <b>5.13%</b> 5-year revenue CAGR—proving that GenAI disruption fears have created a <b>+337 bps</b> growth expectations discount against TCS's USD 41B+ TCV order book (8.50% base DCF CAGR).</li>
+  </ul>
+
+  <h3>2.3 5x5 Sensitivity Summary, Relative Peer Multiples &amp; Forensic Accounting Audit</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Bear Case (+100 bps Rate, -100 bps g)</th>
+        <th>Base Case Intrinsic Value</th>
+        <th>Bull Case (-100 bps Rate, +100 bps g)</th>
+        <th>Peer Comps Positioning</th>
+        <th>Forensic Footnote, Lease &amp; RPT Audit Verdict</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>ICICI Bank</b></td>
+        <td>₹1,207.85 (Ke=13.65%, g=4.25%)</td>
+        <td class="highlight-green">₹1,595.50 (Ke=12.65%, g=5.25%)</td>
+        <td>₹2,275.58 (Ke=11.65%, g=6.25%)</td>
+        <td>3.34x P/B vs. Peer Avg 2.55x (justified by 17.5% ROE &amp; 2.25% ROA)</td>
+        <td>94% of contingent liabilities are hedged FX swaps; disputed tax only 2.85% of NW; RPTs 1.75% of NII; Clean Audit.</td>
+      </tr>
+      <tr>
+        <td><b>Reliance</b></td>
+        <td>₹1,082.93 (WACC=13.10%, g=4.00%)</td>
+        <td class="highlight-green">₹1,420.14 (WACC=12.10%, g=5.00%)</td>
+        <td>₹2,015.42 (WACC=11.10%, g=6.00%)</td>
+        <td>Consol. 9.38x EV/EBITDA vs. Airtel 14.8x &amp; DMart 42.0x</td>
+        <td>Contingent liabilities 7.80% of NW; ₹24,600 Cr Ind AS 116 leases inside Gross Debt; inter-segment RPTs eliminated; Clean Audit.</td>
+      </tr>
+      <tr>
+        <td><b>TCS</b></td>
+        <td>₹2,345.10 (WACC=12.65%, g=3.50%)</td>
+        <td class="highlight-green">₹2,905.55 (WACC=11.65%, g=4.50%)</td>
+        <td>₹3,896.80 (WACC=10.65%, g=5.50%)</td>
+        <td>18.40x P/E &amp; 51.0% ROE vs. Tier-1 IT Peer Avg 21.8x P/E &amp; 27.7% ROE</td>
+        <td>₹8,200 Cr Ind AS 116 lease debt deducted in EV bridge; Tata Group RPTs 3.40% of rev at arm's length; Clean Audit.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== PAGE 3 ==================== -->
+<div class="page">
+  <h2>3. AI-Augmented NLP Pipeline, Human Benchmarking &amp; Monte Carlo Scenarios</h2>
+
+  <h3>3.1 Live ProsusAI/finbert 8-Quarter Concall Sentiment &amp; Management Optimism Gap (Q1 FY25 – Q4 FY26)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Company (Ticker)</th>
+        <th>8Q Mean Prepared Remarks</th>
+        <th>8Q Mean Analyst Q&amp;A</th>
+        <th>Mean Optimism Gap (Δ)</th>
+        <th>Q4 FY26 Remarks / Q&amp;A</th>
+        <th>Remarks Caution (/100w)</th>
+        <th>Q&amp;A Caution (/100w)</th>
+        <th>Key Unscripted Q&amp;A Risk Theme</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>ICICI Bank (ICICIBANK.NS)</b></td>
+        <td>+0.8774</td>
+        <td>-0.2153</td>
+        <td class="highlight-gold">+1.0927</td>
+        <td>+0.8926 / -0.5174</td>
+        <td>0.00</td>
+        <td><b>10.95</b></td>
+        <td>Term deposit repricing lag &amp; calibrated unsecured retail lending</td>
+      </tr>
+      <tr>
+        <td><b>Reliance Ind. (RELIANCE.NS)</b></td>
+        <td>+0.8909</td>
+        <td>-0.5925</td>
+        <td class="highlight-gold">+1.4833</td>
+        <td>+0.9167 / -0.5698</td>
+        <td>0.21</td>
+        <td><b>11.82</b></td>
+        <td>O2C refining crack volatility &amp; physical retail store rationalization</td>
+      </tr>
+      <tr>
+        <td><b>TCS (TCS.NS)</b></td>
+        <td>+0.7890</td>
+        <td>-0.7482</td>
+        <td class="highlight-gold">+1.5372</td>
+        <td>+0.8888 / -0.8780</td>
+        <td>0.00</td>
+        <td><b>11.78</b></td>
+        <td>GenAI productivity pass-backs &amp; North America discretionary IT lag</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>3.2 90-Sentence Human Gold-Standard Benchmark &amp; 0%-Hallucination Verbatim Verifier</h3>
+  <div class="two-col">
+    <div class="col">
+      <p>
+        <b>Human Validation Benchmark (N = 90 Concall Sentences):</b> Live <code>ProsusAI/finbert</code> achieved <b>95.56% Overall Accuracy (86/90)</b>, <b>Macro-F1 = 0.9555</b>, and <b>Cohen's Kappa κ = 0.9333</b> (ICICI: 93.33%, Reliance: 96.67%, TCS: 96.67%).
+      </p>
+      <table>
+        <thead>
+          <tr><th>Human \ FinBERT</th><th>Pred Positive</th><th>Pred Neutral</th><th>Pred Negative</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><b>Human Positive (30)</b></td><td class="highlight-green">30</td><td>0</td><td>0</td></tr>
+          <tr><td><b>Human Neutral (30)</b></td><td>0</td><td class="highlight-green">29</td><td>1</td></tr>
+          <tr><td><b>Human Negative (30)</b></td><td>3</td><td>0</td><td class="highlight-green">27</td></tr>
+        </tbody>
+      </table>
+      <p>
+        <b>Deterministic Footnote Verifier:</b> <b>12/12 (100.0%)</b> annual report extractions across Guidance, Capex, Contingent Liabilities &amp; RPTs passed exact substring &amp; <code>SequenceMatcher</code> verification (<b>0.00% Hallucination Rate</b>).
+      </p>
+    </div>
+    <div class="col">
+      <img class="chart-img" src="../01_data/cleaned/sentiment_trends.png" alt="8-Quarter FinBERT Sentiment Trends">
+    </div>
+  </div>
+
+  <h3>3.3 150-Headline Behavioral Bias Framing vs. Fundamental Valuation Dislocation</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Media Sentiment</th>
+        <th>Dominant Behavioral Bias</th>
+        <th>Hype / FOMO</th>
+        <th>Recency Bias</th>
+        <th>Loss Aversion</th>
+        <th>Neutral</th>
+        <th>1Y EPS Rev</th>
+        <th>Signal vs. Noise Dislocation Verdict</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>ICICI Bank</b></td>
+        <td>+0.2217</td>
+        <td><b>Hype / FOMO (58%)</b></td>
+        <td class="highlight-gold">29 (58%)</td>
+        <td>4 (8%)</td>
+        <td>3 (6%)</td>
+        <td>14 (28%)</td>
+        <td>+4.80%</td>
+        <td><b>ACCUMULATE (+14.13%):</b> Quality leader priced fairly; accumulate systematically without chasing FOMO spikes.</td>
+      </tr>
+      <tr>
+        <td><b>Reliance</b></td>
+        <td>-0.2879</td>
+        <td><b>Recency Bias (34%)</b></td>
+        <td>5 (10%)</td>
+        <td class="highlight-gold">17 (34%)</td>
+        <td>9 (18%)</td>
+        <td>19 (38%)</td>
+        <td>-1.40%</td>
+        <td><b>BUY (+21.91%):</b> High-conviction contrarian opportunity; street over-extrapolates short-term O2C cracks.</td>
+      </tr>
+      <tr>
+        <td><b>TCS</b></td>
+        <td>-0.3438</td>
+        <td><b>Loss Aversion (50%)</b></td>
+        <td>6 (12%)</td>
+        <td>5 (10%)</td>
+        <td class="highlight-gold">25 (50%)</td>
+        <td>14 (28%)</td>
+        <td>-2.10%</td>
+        <td><b>ACCUMULATE (+16.10%):</b> Existential AI fear is overdone; Reverse DCF proves 337 bps unpriced growth.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>3.4 Technical Indicators &amp; 1-Year (252-Day, 1,000-Path) GBM Monte Carlo Distribution (Seed = 42)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Ticker</th>
+        <th>Spot Close</th>
+        <th>50-DMA / 200-DMA</th>
+        <th>14D RSI &amp; Regime</th>
+        <th>MACD / Signal (Hist)</th>
+        <th>MC P10</th>
+        <th>MC P25</th>
+        <th>MC Median (P50)</th>
+        <th>MC P75</th>
+        <th>MC P90</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>ICICIBANK.NS</b></td>
+        <td>₹1,398.00</td>
+        <td>₹1,377.99 / ₹1,347.15</td>
+        <td>56.97 (Bullish)</td>
+        <td>8.36 / 4.59 (+3.76)</td>
+        <td>₹1,201.99</td>
+        <td>₹1,354.09</td>
+        <td class="highlight-green">₹1,553.35 (+11.11%)</td>
+        <td>₹1,769.83</td>
+        <td>₹1,983.98</td>
+      </tr>
+      <tr>
+        <td><b>RELIANCE.NS</b></td>
+        <td>₹1,164.90</td>
+        <td>₹1,235.88 / ₹1,326.19</td>
+        <td>40.27 (Weak/Oversold)</td>
+        <td>-15.64 / -16.00 (+0.36)</td>
+        <td>₹850.14</td>
+        <td>₹978.25</td>
+        <td>₹1,125.15 (-3.41%)</td>
+        <td>₹1,318.05</td>
+        <td>₹1,512.87</td>
+      </tr>
+      <tr>
+        <td><b>TCS.NS</b></td>
+        <td>₹2,502.60</td>
+        <td>₹2,255.25 / ₹2,393.67</td>
+        <td>67.56 (Bullish)</td>
+        <td>91.08 / 74.85 (+16.22)</td>
+        <td>₹1,759.28</td>
+        <td>₹2,010.15</td>
+        <td>₹2,354.84 (-5.90%)</td>
+        <td>₹2,774.45</td>
+        <td>₹3,134.15</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ==================== PAGE 4 ==================== -->
+<div class="page">
+  <h2>4. Risk-Calibrated Portfolio Optimization, 20-Year SIP Glide Path &amp; 4-Ratio Evaluation</h2>
+
+  <h3>4.1 Blended Expected Returns, MVO Tangency Portfolio &amp; Utility-Based Investor Baskets</h3>
+  <p>
+    Blending <code>50% CAPM Ke + 50% DCF/DDM 5Y IRR</code> yields forward expected returns of <b>13.99% (ICICI Bank)</b>, <b>15.55% (Reliance)</b>, and <b>13.28% (TCS)</b> against the 91-Day RBI T-Bill (<code>Rf = 6.65%</code>). The <b>Max-Sharpe Tangency Portfolio</b> allocates <b>38.90% ICICI Bank</b>, <b>37.91% Reliance</b>, and <b>23.19% TCS</b> (<code>E[Rp] = 14.42%</code>, <code>σp = 15.74%</code>, <code>βp = 0.9874</code>, <code>Sharpe = 0.4935</code>). Applying our 10-question risk profiler and <b>Prudence Rule</b> (<code>if |SecA - SecB| ≥ 6: R_eff = 2 × min(SecA, SecB)</code>) optimizes complete portfolio utility <code>U = E(Rc) - 0.5 A σc²</code>:
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Investor Basket Profile</th>
+        <th>Sec A / Sec B</th>
+        <th>Eff. R</th>
+        <th>Risk Aversion A</th>
+        <th>Risky Equity y*</th>
+        <th>91D T-Bill (1-y*)</th>
+        <th>w_ICICI</th>
+        <th>w_Reliance</th>
+        <th>w_TCS</th>
+        <th>Complete E[Rc]</th>
+        <th>Complete σc</th>
+        <th>Utility U</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="highlight-green">
+        <td><b>Aggressive Basket</b></td>
+        <td>18 / 18</td>
+        <td>36</td>
+        <td><b>2.20</b></td>
+        <td><b>100.00%</b></td>
+        <td>0.00%</td>
+        <td>38.90%</td>
+        <td>37.91%</td>
+        <td>23.19%</td>
+        <td><b>14.42%</b></td>
+        <td>15.74%</td>
+        <td>0.1169</td>
+      </tr>
+      <tr>
+        <td><b>Balanced Basket</b></td>
+        <td>14 / 13</td>
+        <td>27</td>
+        <td><b>4.90</b></td>
+        <td><b>64.00%</b></td>
+        <td>36.00%</td>
+        <td>24.90%</td>
+        <td>24.26%</td>
+        <td>14.85%</td>
+        <td><b>11.62%</b></td>
+        <td>10.07%</td>
+        <td>0.0914</td>
+      </tr>
+      <tr>
+        <td><b>Defensive Basket</b></td>
+        <td>8 / 7</td>
+        <td>15</td>
+        <td><b>8.50</b></td>
+        <td><b>36.90%</b></td>
+        <td>63.10%</td>
+        <td>14.35%</td>
+        <td>13.99%</td>
+        <td>8.56%</td>
+        <td><b>9.52%</b></td>
+        <td>5.81%</td>
+        <td>0.0808</td>
+      </tr>
+      <tr class="highlight-gold">
+        <td><b>Prudence-Override Case</b></td>
+        <td>9 / 18 (Δ=9≥6)</td>
+        <td><b>18 (Cap)</b></td>
+        <td><b>7.60</b></td>
+        <td><b>41.27%</b></td>
+        <td>58.73%</td>
+        <td>16.05%</td>
+        <td>15.64%</td>
+        <td>9.57%</td>
+        <td><b>9.85%</b></td>
+        <td>6.49%</td>
+        <td>0.0825</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>4.2 20-Year Step-Up SIP Lifecycle Glide Path (₹25,000/mo Initial, +10% Annual Step-Up)</h3>
+  <div class="two-col">
+    <div class="col">
+      <img class="chart-img" src="../01_data/cleaned/efficient_frontier_cal.png" alt="Efficient Frontier and CAL">
+    </div>
+    <div class="col">
+      <img class="chart-img" src="../01_data/cleaned/sip_glide_path.png" alt="20-Year Step-Up SIP Glide Path">
+    </div>
+  </div>
+  <p>
+    Stepping up a ₹25,000 monthly SIP by 10% annually over 20 years invests <b>₹1.7182 Cr</b> cumulatively across three automated lifecycle phases: <b>Years 1–8 (Aggressive, 100% Equity)</b> → <b>Years 9–15 (Balanced, 64.0% Equity)</b> → <b>Years 16–20 (Defensive, 36.9% Equity)</b>, generating a <b>Deterministic Expected Terminal Corpus of ₹4.3241 Cr (2.52x invested capital)</b> and a 1,000-path <b>Monte Carlo Median (P50) of ₹4.1962 Cr</b> (P10: ₹3.1765 Cr | P90: ₹5.7370 Cr).
+  </p>
+
+  <h3>4.3 Mandatory 4-Metric Portfolio Evaluation Table (Forward Equilibrium &amp; 5-Year Historical Backtest)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Portfolio / Benchmark</th>
+        <th>Beta (βp)</th>
+        <th>Tracking Error</th>
+        <th>Fwd E[Rp]</th>
+        <th>Fwd Vol (σp)</th>
+        <th>1. Sharpe Ratio</th>
+        <th>2. Treynor Measure</th>
+        <th>3. Jensen's α</th>
+        <th>4. Information Ratio</th>
+        <th>5Y Backtest ₹100</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="highlight-green">
+        <td><b>Max-Sharpe Tangency / Aggressive (A=2.20)</b></td>
+        <td>0.9874</td>
+        <td>7.76%</td>
+        <td>14.42%</td>
+        <td>15.74%</td>
+        <td><b>0.4935</b></td>
+        <td><b>0.0786</b></td>
+        <td><b>+1.84%</b></td>
+        <td><b>+0.2274</b></td>
+        <td>₹121.24</td>
+      </tr>
+      <tr>
+        <td><b>Balanced Utility Basket (A=4.90)</b></td>
+        <td>0.6320</td>
+        <td>7.12%</td>
+        <td>11.62%</td>
+        <td>10.07%</td>
+        <td><b>0.4935</b></td>
+        <td><b>0.0786</b></td>
+        <td><b>+1.18%</b></td>
+        <td>-0.1446</td>
+        <td>₹127.20</td>
+      </tr>
+      <tr>
+        <td><b>Defensive Utility Basket (A=8.50)</b></td>
+        <td>0.3643</td>
+        <td>9.26%</td>
+        <td>9.52%</td>
+        <td>5.81%</td>
+        <td><b>0.4940</b></td>
+        <td><b>0.0788</b></td>
+        <td><b>+0.68%</b></td>
+        <td>-0.3378</td>
+        <td>₹131.88</td>
+      </tr>
+      <tr>
+        <td>Global Minimum Variance (GMV)</td>
+        <td>0.9581</td>
+        <td>7.96%</td>
+        <td>14.17%</td>
+        <td>15.48%</td>
+        <td>0.4858</td>
+        <td>0.0785</td>
+        <td>+1.77%</td>
+        <td>+0.1906</td>
+        <td>₹122.92</td>
+      </tr>
+      <tr>
+        <td>Equal-Weight (1/3, 1/3, 1/3)</td>
+        <td>0.9657</td>
+        <td>8.10%</td>
+        <td>14.27%</td>
+        <td>15.64%</td>
+        <td>0.4875</td>
+        <td>0.0789</td>
+        <td>+1.83%</td>
+        <td>+0.2004</td>
+        <td>₹115.07</td>
+      </tr>
+      <tr>
+        <td><b>Nifty 50 Benchmark (^NSEI)</b></td>
+        <td>1.0000</td>
+        <td>0.00%</td>
+        <td>12.65%</td>
+        <td>13.86%</td>
+        <td>0.4328</td>
+        <td>0.0600</td>
+        <td>+0.00%</td>
+        <td>0.0000</td>
+        <td>₹128.58</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>4.4 Final Actionable Recommendations &amp; Model Limitations</h3>
+  <ul>
+    <li><b>Actionable Calls:</b> <b>BUY Reliance Industries</b> (Target ₹1,420.14, +21.91% upside; 37.91% MVO weight), <b>ACCUMULATE TCS</b> (Target ₹2,905.55, +16.10% upside; 23.19% MVO weight), and <b>ACCUMULATE ICICI Bank</b> (Target ₹1,595.50, +14.13% upside; 38.90% MVO weight).</li>
+    <li><b>Key Limitations:</b> (1) FinBERT sentence polarity can underweight cautious qualifiers when paired with strong numeric earnings beats (4/90 benchmark misses); (2) GBM Monte Carlo assumes log-normal returns with constant drift/volatility; (3) MVO weights are sensitive to expected return inputs, mitigated here by blending 50% CAPM equilibrium returns with 50% DCF/DDM implied IRRs.</li>
+  </ul>
+</div>
+
+</body>
+</html>

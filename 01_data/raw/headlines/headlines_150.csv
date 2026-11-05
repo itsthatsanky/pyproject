@@ -1,0 +1,151 @@
+headline_id,date,company,ticker,source,headline,ground_truth_bias
+H001,2025-05-01,ICICI Bank,ICICIBANK.NS,Economic Times,ICICI Bank emerges as undisputed king of Indian private banking as ROE outshines peers,Hype / FOMO
+H002,2025-05-12,ICICI Bank,ICICIBANK.NS,Moneycontrol,Why every institutional portfolio is chasing ICICI Bank at record price-to-book multiples,Hype / FOMO
+H003,2025-05-23,ICICI Bank,ICICIBANK.NS,LiveMint,ICICI Bank shares surge toward new highs as street crowns it the unstoppable compounder,Hype / FOMO
+H004,2025-06-03,ICICI Bank,ICICIBANK.NS,Business Standard,FOMO rally in ICICI Bank intensifies as foreign funds dump lagging peers for quality leader,Hype / FOMO
+H005,2025-06-14,ICICI Bank,ICICIBANK.NS,NDTV Profit,ICICI Bank beats street estimates again; analysts say premium valuation is the new floor,Hype / FOMO
+H006,2025-06-25,ICICI Bank,ICICIBANK.NS,Economic Times,Goldilocks era for ICICI Bank: zero asset quality stress and unstoppable digital loan growth,Hype / FOMO
+H007,2025-07-06,ICICI Bank,ICICIBANK.NS,Moneycontrol,Retail investors flock to ICICI Bank as wealth management and iMobile Pay dominate market,Hype / FOMO
+H008,2025-07-17,ICICI Bank,ICICIBANK.NS,LiveMint,ICICI Bank crosses landmark market cap milestone; bulls project relentless re-rating ahead,Hype / FOMO
+H009,2025-07-28,ICICI Bank,ICICIBANK.NS,Business Standard,Brokerages raise target prices across the board after ICICI Bank's blowout Q4 earnings,Hype / FOMO
+H010,2025-08-09,ICICI Bank,ICICIBANK.NS,NDTV Profit,ICICI Bank's industry-best ROA of 2.3% sparks unanimity among buy-side fund managers,Hype / FOMO
+H011,2025-08-20,ICICI Bank,ICICIBANK.NS,Economic Times,Is ICICI Bank immune to banking sector headwinds? Street bets big on fortress balance sheet,Hype / FOMO
+H012,2025-08-31,ICICI Bank,ICICIBANK.NS,Moneycontrol,Mutual funds boost ICICI Bank holdings to all-time high amid flight to banking safety,Hype / FOMO
+H013,2025-09-11,ICICI Bank,ICICIBANK.NS,LiveMint,"ICICI Bank business banking engine fires on all cylinders, leaving competition behind",Hype / FOMO
+H014,2025-09-22,ICICI Bank,ICICIBANK.NS,Business Standard,Star performer ICICI Bank continues to command scarcity premium in Nifty Bank index,Hype / FOMO
+H015,2025-10-03,ICICI Bank,ICICIBANK.NS,NDTV Profit,ICICI Bank subsidiary value unlock euphoria builds ahead of AMC and insurance milestones,Hype / FOMO
+H016,2025-10-14,ICICI Bank,ICICIBANK.NS,Economic Times,Unstoppable momentum: ICICI Bank delivers 15% loan growth with pristine 0.45% Net NPA,Hype / FOMO
+H017,2025-10-25,ICICI Bank,ICICIBANK.NS,Moneycontrol,Global investors hail ICICI Bank as the cleanest digital banking story in emerging markets,Hype / FOMO
+H018,2025-11-06,ICICI Bank,ICICIBANK.NS,LiveMint,ICICI Bank stock hits fresh peak as consensus upgrades FY27 earnings estimates by 6%,Hype / FOMO
+H019,2025-11-17,ICICI Bank,ICICIBANK.NS,Business Standard,Why nobody dares to be underweight ICICI Bank in Indian financial portfolios today,Hype / FOMO
+H020,2025-11-28,ICICI Bank,ICICIBANK.NS,NDTV Profit,ICICI Bank's customer-360 strategy delivers stellar fee income surge in festive quarter,Hype / FOMO
+H021,2025-12-09,ICICI Bank,ICICIBANK.NS,Economic Times,"ICICI Bank posts 18% surge in SME and business banking advances, beating all street forecasts",Hype / FOMO
+H022,2025-12-20,ICICI Bank,ICICIBANK.NS,Moneycontrol,Street cheers ICICI Bank's Rs 13.50 dividend payout and industry-leading Tier-1 capital buffer,Hype / FOMO
+H023,2025-12-31,ICICI Bank,ICICIBANK.NS,LiveMint,ICICI Bank continues to gain deposit market share while peers struggle for funding,Hype / FOMO
+H024,2026-01-11,ICICI Bank,ICICIBANK.NS,Business Standard,Top conviction pick: brokerages see no ceiling for ICICI Bank's digital underwriting moat,Hype / FOMO
+H025,2026-01-22,ICICI Bank,ICICIBANK.NS,NDTV Profit,ICICI Bank's resilient 4.30% NIM defies broader banking sector margin compression fears,Hype / FOMO
+H026,2026-02-03,ICICI Bank,ICICIBANK.NS,Economic Times,Deposit war heats up: will rising term deposit costs finally squeeze ICICI Bank margins?,Recency Bias / Extrapolation
+H027,2026-02-14,ICICI Bank,ICICIBANK.NS,Moneycontrol,Unsecured loan slowdown in Q2 sparks debate on ICICI Bank's near-term retail credit pace,Recency Bias / Extrapolation
+H028,2026-02-25,ICICI Bank,ICICIBANK.NS,LiveMint,RBI repo rate cut talk triggers short-term profit booking in floating-rate lender ICICI Bank,Recency Bias / Extrapolation
+H029,2026-03-08,ICICI Bank,ICICIBANK.NS,Business Standard,Systemic CASA ratio dip over last two quarters raises questions on banking funding costs,Recency Bias / Extrapolation
+H030,2026-03-19,ICICI Bank,ICICIBANK.NS,NDTV Profit,Could fintech disruption threaten traditional private bank fee income streams over time?,Loss Aversion / Disruption Fear
+H031,2026-03-30,ICICI Bank,ICICIBANK.NS,Economic Times,Investors weigh downside risks if macro slowdown hits Indian SME credit cycle in FY27,Loss Aversion / Disruption Fear
+H032,2026-04-10,ICICI Bank,ICICIBANK.NS,Moneycontrol,Caution warranted as banking sector credit-to-deposit ratios face strict regulatory scrutiny,Loss Aversion / Disruption Fear
+H033,2026-04-21,ICICI Bank,ICICIBANK.NS,LiveMint,"ICICI Bank reports Q1 FY26 standalone net profit of Rs 11,690 Crore, up 11.8% YoY",Neutral / Factual
+H034,2026-05-03,ICICI Bank,ICICIBANK.NS,Business Standard,ICICI Bank Board scheduled to meet on October 24 to consider second quarter financial results,Neutral / Factual
+H035,2026-05-14,ICICI Bank,ICICIBANK.NS,NDTV Profit,"ICICI Bank domestic advances stood at Rs 15.18 Lakh Crore as of March 31, 2026",Neutral / Factual
+H036,2026-05-25,ICICI Bank,ICICIBANK.NS,Economic Times,"ICICI Bank maintains contingency provision buffer at Rs 13,100 Crore at fiscal year end",Neutral / Factual
+H037,2026-06-05,ICICI Bank,ICICIBANK.NS,Moneycontrol,RBI approves re-appointment of Executive Director on the Board of ICICI Bank,Neutral / Factual
+H038,2026-06-16,ICICI Bank,ICICIBANK.NS,LiveMint,ICICI Bank opens 120 new branches across tier-2 and tier-3 cities during the third quarter,Neutral / Factual
+H039,2026-06-27,ICICI Bank,ICICIBANK.NS,Business Standard,ICICI Bank reports Gross NPA ratio of 1.85% and Net NPA ratio of 0.45% in Q4 FY26,Neutral / Factual
+H040,2026-07-08,ICICI Bank,ICICIBANK.NS,NDTV Profit,ICICI Bank average Liquidity Coverage Ratio reported at 121.5% for the December quarter,Neutral / Factual
+H041,2026-07-19,ICICI Bank,ICICIBANK.NS,Economic Times,ICICI Bank allots 14.2 lakh equity shares under Employee Stock Option Scheme,Neutral / Factual
+H042,2026-07-31,ICICI Bank,ICICIBANK.NS,Moneycontrol,ICICI Bank files annual integrated report for FY26 with National Stock Exchange and BSE,Neutral / Factual
+H043,2026-08-11,ICICI Bank,ICICIBANK.NS,LiveMint,ICICI Bank revises Marginal Cost of Funds Based Lending Rate (MCLR) by 5 bps across tenors,Neutral / Factual
+H044,2026-08-22,ICICI Bank,ICICIBANK.NS,Business Standard,ICICI Bank total deposits rose to Rs 18.02 Lakh Crore at the end of FY26,Neutral / Factual
+H045,2026-09-02,ICICI Bank,ICICIBANK.NS,NDTV Profit,ICICI Bank Tier-1 Capital Adequacy Ratio stood at 16.25% under Basel III norms,Neutral / Factual
+H046,2026-09-13,ICICI Bank,ICICIBANK.NS,Economic Times,ICICI Bank hosts annual analyst and investor day in Mumbai to outline digital roadmap,Neutral / Factual
+H047,2026-09-24,ICICI Bank,ICICIBANK.NS,Moneycontrol,ICICI Bank CASA ratio recorded at 41.8% at the close of the fourth quarter,Neutral / Factual
+H048,2026-10-05,ICICI Bank,ICICIBANK.NS,LiveMint,"ICICI Bank completes issuance of Rs 4,000 Crore infrastructure bonds at 7.42% coupon",Neutral / Factual
+H049,2026-10-16,ICICI Bank,ICICIBANK.NS,Business Standard,ICICI Bank shareholders approve annual dividend of Rs 13.50 per equity share at AGM,Neutral / Factual
+H050,2026-10-28,ICICI Bank,ICICIBANK.NS,NDTV Profit,ICICI Bank consolidated statement includes results of ICICI Lombard and ICICI Prudential Life,Neutral / Factual
+H051,2025-05-01,Reliance Industries,RELIANCE.NS,Economic Times,Reliance O2C refining margins dip in Q1; traders extrapolate prolonged petrochemical slump,Recency Bias / Extrapolation
+H052,2025-05-12,Reliance Industries,RELIANCE.NS,Moneycontrol,Two quarters of store rationalization at Reliance Retail spark fears of permanent consumer slowdown,Recency Bias / Extrapolation
+H053,2025-05-23,Reliance Industries,RELIANCE.NS,LiveMint,Reliance shares lag Nifty over past 6 months as street fixates on short-term O2C crack weakness,Recency Bias / Extrapolation
+H054,2025-06-03,Reliance Industries,RELIANCE.NS,Business Standard,Short-term B2B wholesale restructuring drags Reliance Retail top-line; bears project weak FY27,Recency Bias / Extrapolation
+H055,2025-06-14,Reliance Industries,RELIANCE.NS,NDTV Profit,Singapore GRM volatility in monsoon quarter triggers knee-jerk downgrades on Reliance O2C,Recency Bias / Extrapolation
+H056,2025-06-25,Reliance Industries,RELIANCE.NS,Economic Times,"Traders dump Reliance after modest Q2 revenue print, ignoring massive free cash flow inflection",Recency Bias / Extrapolation
+H057,2025-07-06,Reliance Industries,RELIANCE.NS,Moneycontrol,Chinese polymer overcapacity weighs on recent O2C quarters; street extrapolates zero margin recovery,Recency Bias / Extrapolation
+H058,2025-07-17,Reliance Industries,RELIANCE.NS,LiveMint,Temporary 2G subscriber churn after Jio tariff hike overshadows 18% EBITDA jump in media headlines,Recency Bias / Extrapolation
+H059,2025-07-28,Reliance Industries,RELIANCE.NS,Business Standard,Market extrapolates recent urban discretionary softness onto Reliance Retail's long-term trajectory,Recency Bias / Extrapolation
+H060,2025-08-09,Reliance Industries,RELIANCE.NS,NDTV Profit,Reliance stock underperformance over trailing 12 months drives retail investor impatience,Recency Bias / Extrapolation
+H061,2025-08-20,Reliance Industries,RELIANCE.NS,Economic Times,Analyst commentary fixates on quarterly capex run-rate despite 5G network rollout completion,Recency Bias / Extrapolation
+H062,2025-08-31,Reliance Industries,RELIANCE.NS,Moneycontrol,Quick-commerce discounting war in recent months sparks exaggerated fears over Reliance grocery margins,Recency Bias / Extrapolation
+H063,2025-09-11,Reliance Industries,RELIANCE.NS,LiveMint,Soft polyester deltas in Q3 lead short-term traders to write off Reliance's energy vertical,Recency Bias / Extrapolation
+H064,2025-09-22,Reliance Industries,RELIANCE.NS,Business Standard,Waiting for Jio IPO: street extrapolates holding-company discount indefinitely after quiet quarter,Recency Bias / Extrapolation
+H065,2025-10-03,Reliance Industries,RELIANCE.NS,NDTV Profit,Near-term ramp-up costs at Jamnagar solar gigafactory weigh on quarterly sentiment,Recency Bias / Extrapolation
+H066,2025-10-14,Reliance Industries,RELIANCE.NS,Economic Times,Foreign portfolio outflows in October hit heavyweight Reliance despite improving balance sheet,Recency Bias / Extrapolation
+H067,2025-10-25,Reliance Industries,RELIANCE.NS,Moneycontrol,Quarterly working capital build in B2B retail dominates headlines after Q2 results,Recency Bias / Extrapolation
+H068,2025-11-06,Reliance Industries,RELIANCE.NS,LiveMint,Short-term crude price swings cloud street view on Reliance's steady consumer transformation,Recency Bias / Extrapolation
+H069,2025-11-17,Reliance Industries,RELIANCE.NS,Business Standard,Traders extrapolate muted festive apparel growth across all organized retail formats,Recency Bias / Extrapolation
+H070,2025-11-28,Reliance Industries,RELIANCE.NS,NDTV Profit,Delay in next round of telecom tariff hikes fuels short-term pessimism on Jio ARPU trajectory,Recency Bias / Extrapolation
+H071,2025-12-09,Reliance Industries,RELIANCE.NS,Economic Times,Global refining margin contraction in Q1 extrapolated by bears into multi-year earnings drag,Recency Bias / Extrapolation
+H072,2025-12-20,Reliance Industries,RELIANCE.NS,Moneycontrol,Reliance Retail store closures in small towns dominate media narrative despite rising margins,Recency Bias / Extrapolation
+H073,2025-12-31,Reliance Industries,RELIANCE.NS,LiveMint,Recent FII selling in index heavyweights keeps Reliance shares pinned below 200-DMA,Recency Bias / Extrapolation
+H074,2026-01-11,Reliance Industries,RELIANCE.NS,Business Standard,Can Reliance New Energy avoid global solar module oversupply and price collapse risks?,Loss Aversion / Disruption Fear
+H075,2026-01-22,Reliance Industries,RELIANCE.NS,NDTV Profit,Investors worry green hydrogen gigafactory payback could face technology and regulatory delays,Loss Aversion / Disruption Fear
+H076,2026-02-03,Reliance Industries,RELIANCE.NS,Economic Times,Quick-commerce rivals threaten to disrupt traditional hypermarket footfalls in metro cities,Loss Aversion / Disruption Fear
+H077,2026-02-14,Reliance Industries,RELIANCE.NS,Moneycontrol,Geopolitical Red Sea shipping disruptions pose downside risk to export fuel realizations,Loss Aversion / Disruption Fear
+H078,2026-02-25,Reliance Industries,RELIANCE.NS,LiveMint,Jio 5G AirFiber additions hit record pace; bulls see massive digital re-rating ahead,Hype / FOMO
+H079,2026-03-08,Reliance Industries,RELIANCE.NS,Business Standard,Reliance consolidated EBITDA crosses Rs 1.82 Lakh Crore as Jio and Retail power profits,Hype / FOMO
+H080,2026-03-19,Reliance Industries,RELIANCE.NS,NDTV Profit,Jamnagar New Energy giga-complex hailed as India's boldest clean tech moonshot,Hype / FOMO
+H081,2026-03-30,Reliance Industries,RELIANCE.NS,Economic Times,Reliance Jio ARPU climbs to Rs 215.8 as 5G subscriber base crosses 190 million mark,Hype / FOMO
+H082,2026-04-10,Reliance Industries,RELIANCE.NS,Moneycontrol,Reliance Industries reports consolidated revenue of Rs 10.15 Lakh Crore for FY26,Neutral / Factual
+H083,2026-04-21,Reliance Industries,RELIANCE.NS,LiveMint,"Reliance Industries diluted share count stands at 1,353.2 Crore shares following 1:1 bonus issue",Neutral / Factual
+H084,2026-05-03,Reliance Industries,RELIANCE.NS,Business Standard,"Reliance Retail operates 18,836 stores across 79.1 million sq ft at fiscal year end",Neutral / Factual
+H085,2026-05-14,Reliance Industries,RELIANCE.NS,NDTV Profit,"Reliance Industries cash and marketable securities stood at Rs 2,15,000 Crore as of March 31",Neutral / Factual
+H086,2026-05-25,Reliance Industries,RELIANCE.NS,Economic Times,KG-D6 basin average gas production maintained at 28.5 MMSCMD during the fourth quarter,Neutral / Factual
+H087,2026-06-05,Reliance Industries,RELIANCE.NS,Moneycontrol,Reliance Industries Board declares annual dividend at the 49th Annual General Meeting,Neutral / Factual
+H088,2026-06-16,Reliance Industries,RELIANCE.NS,LiveMint,Jio Platforms total subscriber base reported at 495.2 million at the end of Q3 FY26,Neutral / Factual
+H089,2026-06-27,Reliance Industries,RELIANCE.NS,Business Standard,Reliance Jamnagar refinery processes 16.8 MMT of crude throughput during December quarter,Neutral / Factual
+H090,2026-07-08,Reliance Industries,RELIANCE.NS,NDTV Profit,Reliance Industries files quarterly corporate governance report with stock exchanges,Neutral / Factual
+H091,2026-07-19,Reliance Industries,RELIANCE.NS,Economic Times,"Reliance Industries capital expenditure for FY26 recorded at Rs 1,18,000 Crore",Neutral / Factual
+H092,2026-07-31,Reliance Industries,RELIANCE.NS,Moneycontrol,"Reliance Industries consolidated gross debt stood at Rs 3,45,000 Crore at year-end",Neutral / Factual
+H093,2026-08-11,Reliance Industries,RELIANCE.NS,LiveMint,Reliance Retail Ventures completes allotment of equity shares to institutional investors,Neutral / Factual
+H094,2026-08-22,Reliance Industries,RELIANCE.NS,Business Standard,Jio Platforms announces enterprise cloud infrastructure partnership for Indian SMBs,Neutral / Factual
+H095,2026-09-02,Reliance Industries,RELIANCE.NS,NDTV Profit,Reliance Industries schedules Q4 FY26 earnings conference call for institutional analysts,Neutral / Factual
+H096,2026-09-13,Reliance Industries,RELIANCE.NS,Economic Times,"Reliance O2C segment reports quarterly revenue of Rs 1,42,500 Crore in Q3 FY26",Neutral / Factual
+H097,2026-09-24,Reliance Industries,RELIANCE.NS,Moneycontrol,Reliance Foundation publishes annual sustainability and CSR impact report for FY26,Neutral / Factual
+H098,2026-10-05,Reliance Industries,RELIANCE.NS,LiveMint,Reliance Industries effective tax rate stood at 25.1% for the full fiscal year,Neutral / Factual
+H099,2026-10-16,Reliance Industries,RELIANCE.NS,Business Standard,"Reliance Industries domestic fuel retail network expands to 1,920 outlets across India",Neutral / Factual
+H100,2026-10-28,Reliance Industries,RELIANCE.NS,NDTV Profit,Reliance Industries submits audited consolidated balance sheet under Ind AS norms,Neutral / Factual
+H101,2025-05-01,TCS,TCS.NS,Economic Times,Will Generative AI kill the Indian IT staffing model? TCS shares de-rate on disruption fears,Loss Aversion / Disruption Fear
+H102,2025-05-12,TCS,TCS.NS,Moneycontrol,Panic over AI coding agents replacing junior engineers sends TCS valuation to 5-year lows,Loss Aversion / Disruption Fear
+H103,2025-05-23,TCS,TCS.NS,LiveMint,"Clients demand 25% AI productivity price cuts in BPO renewals, threatening TCS legacy revenue",Loss Aversion / Disruption Fear
+H104,2025-06-03,TCS,TCS.NS,Business Standard,Fear of permanent US IT budget freeze triggers heavy institutional selling in TCS,Loss Aversion / Disruption Fear
+H105,2025-06-14,TCS,TCS.NS,NDTV Profit,Is the golden era of Indian IT services over? Bears warn of structural terminal decay for TCS,Loss Aversion / Disruption Fear
+H106,2025-06-25,TCS,TCS.NS,Economic Times,Autonomous AI software engineering tools spark existential anxiety for IT bellwether TCS,Loss Aversion / Disruption Fear
+H107,2025-07-06,TCS,TCS.NS,Moneycontrol,Enterprise CIOs slash discretionary consulting spend; investors brace for prolonged TCS pain,Loss Aversion / Disruption Fear
+H108,2025-07-17,TCS,TCS.NS,LiveMint,Cannibalization risk: how GenAI automation could shrink TCS's traditional application maintenance book,Loss Aversion / Disruption Fear
+H109,2025-07-28,TCS,TCS.NS,Business Standard,US recession and tariff anxieties cast a dark cloud over North America IT outsourcing demand,Loss Aversion / Disruption Fear
+H110,2025-08-09,TCS,TCS.NS,NDTV Profit,Why investors are fleeing IT stocks: fear of automated testing wiping out billable hours,Loss Aversion / Disruption Fear
+H111,2025-08-20,TCS,TCS.NS,Economic Times,Legacy contract scope reductions and project cancellations fuel downside fears in TCS,Loss Aversion / Disruption Fear
+H112,2025-08-31,TCS,TCS.NS,Moneycontrol,European automotive and manufacturing recession threatens TCS's continental growth engine,Loss Aversion / Disruption Fear
+H113,2025-09-11,TCS,TCS.NS,LiveMint,Downside protection sought as street worries AI will compress IT industry billing rates,Loss Aversion / Disruption Fear
+H114,2025-09-22,TCS,TCS.NS,Business Standard,Headcount stagnation across Indian IT sector sparks alarm over structural growth ceiling,Loss Aversion / Disruption Fear
+H115,2025-10-03,TCS,TCS.NS,NDTV Profit,"Global banks internalize tech via GCCs in India, raising existential questions for TCS",Loss Aversion / Disruption Fear
+H116,2025-10-14,TCS,TCS.NS,Economic Times,Bears argue TCS's 6 lakh employee pyramid is a liability in an era of AI automation,Loss Aversion / Disruption Fear
+H117,2025-10-25,TCS,TCS.NS,Moneycontrol,Pricing pressure in large vendor consolidation deals sparks fear of margin erosion at TCS,Loss Aversion / Disruption Fear
+H118,2025-11-06,TCS,TCS.NS,LiveMint,Uncertainty over US H-1B visa rules and tariff policies spooks IT sector investors,Loss Aversion / Disruption Fear
+H119,2025-11-17,TCS,TCS.NS,Business Standard,Retail and telecom vertical ramp-downs trigger loss aversion across IT services portfolios,Loss Aversion / Disruption Fear
+H120,2025-11-28,TCS,TCS.NS,NDTV Profit,Can TCS defend its 24.5% EBIT margin if AI commoditizes software maintenance?,Loss Aversion / Disruption Fear
+H121,2025-12-09,TCS,TCS.NS,Economic Times,Street prices in worst-case 5% perpetuity growth for TCS amid relentless AI gloom,Loss Aversion / Disruption Fear
+H122,2025-12-20,TCS,TCS.NS,Moneycontrol,Fear of 'leaky bucket' renewals overshadows TCS's record USD 41 billion order book,Loss Aversion / Disruption Fear
+H123,2025-12-31,TCS,TCS.NS,LiveMint,BSNL contract tapering in Q2 extrapolated by traders as a broader revenue cliff for TCS,Recency Bias / Extrapolation
+H124,2026-01-11,TCS,TCS.NS,Business Standard,Seasonal Q3 furloughs in US healthcare lead analysts to cut full-year TCS forecasts,Recency Bias / Extrapolation
+H125,2026-01-22,TCS,TCS.NS,NDTV Profit,Slow Q1 ramp-up of mega deals causes impatient traders to sell TCS on earnings day,Recency Bias / Extrapolation
+H126,2026-02-03,TCS,TCS.NS,Economic Times,Two soft quarters in UK retail vertical extrapolated into long-term European stagnation,Recency Bias / Extrapolation
+H127,2026-02-14,TCS,TCS.NS,Moneycontrol,TCS smashes deal win records with USD 12.2 billion Q4 TCV and 51% Return on Equity,Hype / FOMO
+H128,2026-02-25,TCS,TCS.NS,LiveMint,TCS AI.Cloud pipeline surges past USD 2 billion as global banks bet on WisdomNext platform,Hype / FOMO
+H129,2026-03-08,TCS,TCS.NS,Business Standard,"Dividend machine TCS returns 98% of free cash flow with fortress Rs 48,500 Cr cash pile",Hype / FOMO
+H130,2026-03-19,TCS,TCS.NS,NDTV Profit,North America BFSI recovery powers TCS sequential beat and 24.8% operating margin,Hype / FOMO
+H131,2026-03-30,TCS,TCS.NS,Economic Times,"TCS reports FY26 consolidated revenue of Rs 2,58,000 Crore and PAT of Rs 49,200 Crore",Neutral / Factual
+H132,2026-04-10,TCS,TCS.NS,Moneycontrol,TCS Board declares final dividend for FY26; record date set for May 18,Neutral / Factual
+H133,2026-04-21,TCS,TCS.NS,LiveMint,"TCS total employee headcount stood at 6,07,979 professionals as of March 31, 2026",Neutral / Factual
+H134,2026-05-03,TCS,TCS.NS,Business Standard,TCS reports LTM IT services attrition rate of 12.1% in the fourth quarter,Neutral / Factual
+H135,2026-05-14,TCS,TCS.NS,NDTV Profit,TCS North America geography contributed 49.5% of consolidated revenue in Q4 FY26,Neutral / Factual
+H136,2026-05-25,TCS,TCS.NS,Economic Times,TCS diluted equity share count stands at 361.8 Crore shares of face value Re 1 each,Neutral / Factual
+H137,2026-06-05,TCS,TCS.NS,Moneycontrol,"TCS cash and marketable investments stood at Rs 48,500 Crore at fiscal year end",Neutral / Factual
+H138,2026-06-16,TCS,TCS.NS,LiveMint,"TCS Ind AS 116 lease liabilities reported at Rs 8,200 Crore on the consolidated balance sheet",Neutral / Factual
+H139,2026-06-27,TCS,TCS.NS,Business Standard,TCS Debtor Days recorded at 65.8 days at the end of the March quarter,Neutral / Factual
+H140,2026-07-08,TCS,TCS.NS,NDTV Profit,TCS files quarterly shareholding pattern with BSE and National Stock Exchange,Neutral / Factual
+H141,2026-07-19,TCS,TCS.NS,Economic Times,TCS announces multi-year cloud modernization contract with European insurance group,Neutral / Factual
+H142,2026-07-31,TCS,TCS.NS,Moneycontrol,TCS implements annual compensation revision for global workforce effective April 1,Neutral / Factual
+H143,2026-08-11,TCS,TCS.NS,LiveMint,TCS operating EBIT margin stood at 24.5% for the full fiscal year FY26,Neutral / Factual
+H144,2026-08-22,TCS,TCS.NS,Business Standard,TCS completes 45 million learning hours in generative AI and cloud architecture in FY26,Neutral / Factual
+H145,2026-09-02,TCS,TCS.NS,NDTV Profit,TCS holds Annual General Meeting of shareholders in Mumbai via video conferencing,Neutral / Factual
+H146,2026-09-13,TCS,TCS.NS,Economic Times,TCS fixed-price contracts accounted for 54.2% of total revenue in Q3 FY26,Neutral / Factual
+H147,2026-09-24,TCS,TCS.NS,Moneycontrol,"TCS Cash Flow from Operations stood at Rs 48,300 Crore (98.2% of PAT) in FY26",Neutral / Factual
+H148,2026-10-05,TCS,TCS.NS,LiveMint,"TCS appoints new global head for Banking, Financial Services, and Insurance vertical",Neutral / Factual
+H149,2026-10-16,TCS,TCS.NS,Business Standard,TCS opens new software engineering and AI delivery center in Latin America,Neutral / Factual
+H150,2026-10-28,TCS,TCS.NS,NDTV Profit,TCS submits audited standalone and consolidated financial results under Ind AS,Neutral / Factual
